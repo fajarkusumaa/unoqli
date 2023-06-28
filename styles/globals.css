@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  border-radius: 0 !important;
+  font-family: "Cabin", sans-serif;
+}
+
+span,
+p {
+  color: #334155;
+}
