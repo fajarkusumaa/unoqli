@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useRef, useState } from "react";
 import Drawer from "./Drawer";
 
-const Navbar = ({ cartAnimate }): React.JSX.Element => {
+const Navbar = ({ cartAnimate }) => {
   const [show, setShow] = useState(false);
   const toggle = useRef(null);
 
