@@ -1,6 +1,6 @@
 import { X, Trash2 } from "lucide-react";
 import React, { useState } from "react";
-import { useCartStore } from "../components/utils/cartStore";
+import { useCartStore } from "./utils/cartStore";
 
 const Drawer = ({ close }) => {
   const cart = useCartStore((state) => state.cart);
