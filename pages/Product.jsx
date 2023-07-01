@@ -1,4 +1,6 @@
-import React, { use, useEffect, useState } from "react";
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react-hooks/rules-of-hooks */
+import React, { useEffect, useState } from "react";
 
 import { productList } from "../components/utils/productList";
 
@@ -13,7 +15,7 @@ const product = () => {
   const handleAddToCart = (item) => {
     addToCart(item);
   };
-  const [list, setList] = useState<any>();
+  const [list, setList] = useState();
 
   const callProduct = () => {
     setList(productList.result.items);
@@ -26,10 +28,6 @@ const product = () => {
   if (!list) {
     return <h1>loading...</h1>;
   }
-  // console.log(list);
-
-  // ADD TO CART FUNCTION
-  // eslint-disable-next-line react-hooks/rules-of-hooks
 
   return (
     <>
@@ -39,7 +37,7 @@ const product = () => {
         {list.map((item, i) => (
           <article
             key={i}
-            className="p-6 w-1/4 bg-white h-[450px] flex flex-col h-full justify-content-between"
+            className="p-6 w-1/4 bg-white flex flex-col h-full justify-content-between"
           >
             <p>{item.name}</p>
             <img src={item.images.main[0].url} alt="" />
