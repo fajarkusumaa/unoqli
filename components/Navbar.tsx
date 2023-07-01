@@ -1,10 +1,10 @@
-import { Heart, ShoppingCart } from "lucide-react";
+import { Heart, ShoppingBag, MoveDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import Drawer from "./Drawer";
 
-const Navbar = () => {
+const Navbar = ({ cartAnimate }): React.JSX.Element => {
   const [show, setShow] = useState(false);
   const toggle = useRef(null);
 
@@ -12,15 +12,23 @@ const Navbar = () => {
     <>
       <div className="w-full flex justify-between items-center px-36 py-12 sticky top-0 z-10 bg-white h-28">
         {/* Left */}
-        <div className="w-1/3">
+        <Link href="/" className="w-1/3">
           <Image src="/logo.png" alt="" width={128} height={128} />{" "}
-        </div>
+        </Link>
         {/* End left */}
-        <div className="w-1/3 flex justify-center gap-8">
-          <a href="">1</a>
-          <a href="">1</a>
-          <a href="">1</a>
-          <a href="">1</a>
+        <div className="w-1/3 flex justify-center gap-8 text-lg">
+          <Link href="" className="hover:text-rose-700">
+            Home
+          </Link>
+          <Link href="" className="hover:text-rose-700">
+            Men
+          </Link>
+          <Link href="" className="hover:text-rose-700">
+            Women
+          </Link>
+          <Link href="" className="hover:text-rose-700">
+            Kiddo
+          </Link>
         </div>
         {/* Right */}
         <div className="w-1/3 text-right flex justify-end gap-6">
@@ -28,7 +36,14 @@ const Navbar = () => {
             <Heart size={24} className="text-slate-700" />
           </button>
           <button onClick={() => setShow(true)}>
-            <ShoppingCart size={24} className="text-slate-700" />
+            <MoveDown
+              className={`${
+                cartAnimate
+                  ? "animate-bounce absolute top-5"
+                  : "invisible absolute"
+              }`}
+            />
+            <ShoppingBag size={24} className="text-slate-700" />
           </button>
         </div>{" "}
         {/* End right */}
