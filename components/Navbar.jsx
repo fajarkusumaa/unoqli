@@ -1,26 +1,32 @@
+import { Badge } from "flowbite-react";
 import { Heart, ShoppingBag, MoveDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import Drawer from "./Drawer";
+import { useCartStore } from "./utils/cartStore";
 
 const Navbar = ({ cartAnimate }) => {
   const [show, setShow] = useState(false);
   const toggle = useRef(null);
 
+  const cart = useCartStore((state) => state.cart);
+
+  console.log(cart);
+
   return (
     <>
-      <div className="w-full flex justify-between items-center px-36 py-12 sticky top-0 z-10 bg-white h-28">
+      <div className="w-full flex justify-between items-center px-36 py-12 sticky  top-0 z-10 bg-white h-28 border-b-2 backdrop-blur-sm bg-opacity-90">
         {/* Left */}
         <Link href="/" className="w-1/3">
           <Image src="/logo.png" alt="" width={128} height={128} />{" "}
         </Link>
         {/* End left */}
         <div className="w-1/3 flex justify-center gap-8 text-lg">
-          <Link href="" className="hover:text-rose-700">
+          <Link href="/" className="hover:text-rose-700">
             Home
           </Link>
-          <Link href="" className="hover:text-rose-700">
+          <Link href="/Product" className="hover:text-rose-700">
             Men
           </Link>
           <Link href="" className="hover:text-rose-700">
@@ -35,15 +41,22 @@ const Navbar = ({ cartAnimate }) => {
           <button>
             <Heart size={24} className="text-slate-700" />
           </button>
-          <button onClick={() => setShow(true)}>
-            <MoveDown
+          <button className="relative" onClick={() => setShow(true)}>
+            {/* <MoveDown
               className={`${
                 cartAnimate
-                  ? "animate-bounce absolute top-5"
+                  ? "animate-bounce absolute top-[-16px]"
                   : "invisible absolute"
               }`}
-            />
+            /> */}
             <ShoppingBag size={24} className="text-slate-700" />
+            <Badge className="bg-transparent absolute top-[-16px] right-[-10px] px-2">
+              {cart.length === 0 ? (
+                ""
+              ) : (
+                <span className="text-rose-600">{cart.length}</span>
+              )}
+            </Badge>{" "}
           </button>
         </div>{" "}
         {/* End right */}

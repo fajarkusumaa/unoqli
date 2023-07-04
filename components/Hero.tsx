@@ -30,7 +30,11 @@ const Hero = () => {
             Welcoming the popular TV anime to UT! <br />
             <span className="text-[#FD3C3C]">Now available</span>
           </h1>
-          <Link href="/Product" color="light" className="mt-4 w-fit">
+          <Link
+            href="/ProductUT"
+            color="light"
+            className="mt-4 w-fit p-4 border-2 bg-slate-800 text-white"
+          >
             See more
           </Link>
         </div>

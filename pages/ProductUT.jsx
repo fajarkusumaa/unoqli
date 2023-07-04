@@ -3,16 +3,13 @@
 import React, { useEffect, useState } from "react";
 
 import { useCartStore } from "@/components/utils/cartStore";
-import { productList } from "../components/utils/productList";
+import { productUT } from "../components/utils/productUT";
 
-import { Button, Carousel } from "flowbite-react";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { ShoppingCart } from "lucide-react";
 import Head from "next/head";
-import Footer from "../components/Footer";
 
-const product = () => {
+const ProductUT = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const addToCart = useCartStore((state) => state.addToCart);
   const handleAddToCart = (item) => {
@@ -22,17 +19,17 @@ const product = () => {
       setCartAnimate(false);
     }, 2000);
   };
-
   const [total, setTotal] = useState();
   const [list, setList] = useState();
 
   // Displayed Items
-  const [displayedItems, setDisplayedItems] = useState(8);
+
+  const [displayedItems, setDisplayedItems] = useState(4);
   const itemsPerPage = 4;
 
   const callProduct = () => {
-    const totalItems = productList.result.items;
-    const slicedItems = productList.result.items.slice(0, displayedItems);
+    const totalItems = productUT.result.items;
+    const slicedItems = productUT.result.items.slice(0, displayedItems);
     setList(slicedItems);
     setTotal(totalItems);
   };
@@ -48,17 +45,6 @@ const product = () => {
 
     console.log(displayedItems);
   };
-  // ----------------
-
-  // Format function
-  const formatPrice = (value) => {
-    return new Intl.NumberFormat("id-ID", {
-      style: "currency",
-      currency: "IDR",
-      minimumFractionDigits: 0,
-    }).format(value);
-  };
-  // ---
 
   const [cartAnimate, setCartAnimate] = useState(false);
 
@@ -108,30 +94,23 @@ const product = () => {
               {list.map((item, i) => (
                 <article
                   key={i}
-                  className="flex flex-col justify-content-between relative gap-1 mb-2"
+                  className="flex flex-col justify-content-between relative"
                 >
                   <img src={item.images.main[0].url} alt="" />
+
                   <button
                     className="p-2 bg-gray-800 text-white hover:bg-gray-950 rounded-xl top-0 right-0 absolute"
                     onClick={() => handleAddToCart(item)}
                   >
                     <ShoppingCart />
                   </button>
-                  <p
-                    className="mt-2 text-base font-semibold flex-1
-                  "
-                  >
-                    {item.name}
-                  </p>
-                  <p className="mt-auto font-semibold text-rose-700 text-xl">
-                    {formatPrice(item.prices.base.value)}
-                  </p>
+                  <p className="mt-2 text-base font-semibold">{item.name}</p>
                 </article>
               ))}
             </div>
-            {displayedItems !== total.length ? (
+            {displayedItems <= total.length ? (
               <button
-                className="mt-10 border-2 border-slate-900  p-4 w-fit mx-auto"
+                className="mt-4 border-2 border-slate-900  p-4 w-fit mx-auto"
                 onClick={() => handleLoadMore()}
               >
                 Load More
@@ -142,10 +121,8 @@ const product = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };
 
-export default product;
+export default ProductUT;

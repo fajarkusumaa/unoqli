@@ -6,20 +6,22 @@ import { useCartStore } from "./utils/cartStore";
 const Drawer = ({ close }) => {
   const cart = useCartStore((state) => state.cart);
   const removeFromCart = useCartStore((state) => state.removeFromCart);
+  const clearCart = useCartStore((state) => state.clearCart);
 
   const handleRemoveFromCart = (index) => {
     removeFromCart(index);
   };
 
-  console.log(cart);
-
   const price = cart.reduce(
     (result, item) => parseInt(item.prices.base.value, 10),
     0
   );
+
   const formattedPrice = new Intl.NumberFormat("id-ID", {
     style: "currency",
     currency: "IDR",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 3,
   }).format(price);
 
   const totalPrice = cart.reduce(
@@ -30,7 +32,7 @@ const Drawer = ({ close }) => {
   const formattedTotalPrice = new Intl.NumberFormat("id-ID", {
     style: "currency",
     currency: "IDR",
-    minimumFractionDigits: 2,
+    minimumFractionDigits: 0,
     maximumFractionDigits: 3,
   }).format(totalPrice);
 
@@ -39,15 +41,31 @@ const Drawer = ({ close }) => {
       <div className="w-[600px] h-screen bg-white p-8 shadow-2xl flex flex-col gap-8">
         <div className="flex justify-between items-center">
           {" "}
-          <span className="text-xl text-slate-700">My Cart</span>
-          <button onClick={() => close(false)} className="p-2 bg-slate-100">
+          <div className="me-auto flex gap-4">
+            {cart.length === 0 ? (
+              ""
+            ) : (
+              <span className="text-xl text-slate-700">My Cart</span>
+            )}{" "}
+            {/* Clear Button */}
+            {cart.length >= 2 ? (
+              <button onClick={() => clearCart()}>
+                <span className="text-rose-600">Clear</span>
+              </button>
+            ) : (
+              ""
+            )}
+          </div>
+          {/* Close Drawer Button */}
+          <button onClick={() => close(false)} className="p-2 bg-slate-50">
             <X className="text-slate-700" />
-          </button>{" "}
+          </button>
         </div>
+
         {/* Main Cart */}
-        <div className="flex flex-col flex-1 shop-list gap-8">
+        <div className="flex flex-col shop-list gap-8 overflow-y-auto">
           {cart.length === 0 ? (
-            <div className="flex flex-1 flex-col h-full justify-center items-center">
+            <div className="flex flex-1 flex-col h-full justify-start items-center mt-24">
               <img
                 className="h-1/3"
                 src="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
@@ -77,6 +95,7 @@ const Drawer = ({ close }) => {
                   <p className="text-base opacity-50">
                     Size: {item.sizes[1].name}
                   </p>
+                  <p className="text-base opacity-50">Qty: </p>
                   <p className="mt-auto font-semibold">{formattedPrice}</p>
                 </div>
                 <button
@@ -90,11 +109,19 @@ const Drawer = ({ close }) => {
           )}
         </div>
         {/* End Cart */}
-
-        <span className="mt-auto text-right font-semibold text-xl p-4 bg-slate-100">
-          {" "}
-          Total: {formattedTotalPrice}{" "}
-        </span>
+        {/* Total */}
+        {cart.length === 0 ? (
+          ""
+        ) : (
+          <Link
+            href="/Cart"
+            className="mt-auto text-right  text-xl p-4 bg-slate-50 text-slate-600 hover:bg-emerald-200 duration-200 ease-in-out"
+          >
+            {" "}
+            Total: <span className="font-semibold">{formattedTotalPrice} </span>
+          </Link>
+        )}
+        {/* End : Total */}
       </div>
 
       {/* <button onClick={() => setArr((prev) => [...prev, ""])}></button> */}

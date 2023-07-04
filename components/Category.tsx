@@ -18,7 +18,7 @@ const Category = () => {
               <div className="flex gap-4 w-full h-full">
                 <Link href="/tops" className="flex-1 relative overflow-hidden">
                   <img
-                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out"
+                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out"
                     src="https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456779/item/idgoods_06_456779.jpg?width=750"
                     alt=""
                   />
@@ -32,7 +32,7 @@ const Category = () => {
               <div className="flex gap-4 w-full h-full">
                 <a href="" className="flex-1  relative overflow-hidden">
                   <img
-                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out"
+                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out"
                     src="https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462318/item/idgoods_57_462318.jpg?width=750"
                     alt=""
                   />
@@ -42,7 +42,7 @@ const Category = () => {
                 </a>
                 <a href="" className="flex-1  relative overflow-hidden">
                   <img
-                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out"
+                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out"
                     src="https://image.uniqlo.com/UQ/ST3/id/imagesgoods/453850/item/idgoods_69_453850.jpg?width=750"
                     alt=""
                   />
@@ -54,7 +54,7 @@ const Category = () => {
               <div className="flex gap-4 h-full w-full">
                 <a href="" className="flex-1  relative overflow-hidden">
                   <img
-                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out"
+                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out"
                     src="https://image.uniqlo.com/UQ/ST3/id/imagesgoods/455533/item/idgoods_05_455533.jpg?width=750"
                     alt=""
                   />
@@ -64,7 +64,7 @@ const Category = () => {
                 </a>
                 <a href="" className="flex-1  relative overflow-hidden">
                   <img
-                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out "
+                    className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out "
                     src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461701/sub/goods_461701_sub11.jpg?width=750"
                     alt=""
                   />
@@ -77,7 +77,7 @@ const Category = () => {
             <div className="flex flex-col gap-4 w-1/3 h-full">
               <a href="" className=" relative overflow-hidden h-2/3">
                 <img
-                  className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out"
+                  className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out"
                   src="https://image.uniqlo.com/UQ/ST3/id/imagesgoods/454315/sub/idgoods_454315_sub2.jpg?width=750"
                   alt=""
                 />
@@ -88,7 +88,7 @@ const Category = () => {
 
               <a href="" className=" relative overflow-hidden h-1/3">
                 <img
-                  className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-150 ease-in-out"
+                  className="absolute w-full h-full object-cover hover:rotate-3 hover:scale-110 duration-200 ease-in-out"
                   src="https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461874/item/idgoods_00_461874.jpg?width=750"
                   alt=""
                 />
