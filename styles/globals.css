@@ -7,10 +7,14 @@
   font-family: "Cabin", sans-serif;
 }
 
-span,
+body {
+  overflow-x: hidden;
+}
+
+/* span,
 p {
   color: #334155;
-}
+} */
 
 /* width */
 ::-webkit-scrollbar {

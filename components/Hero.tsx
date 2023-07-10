@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Button, Carousel } from "flowbite-react";
+import type { CustomFlowbiteTheme } from "flowbite-react";
 
 import { productUT } from "./utils/productUT";
 import Link from "next/link";
-// import Image from "next/image";
 
 const Hero = () => {
   const [datas, setDatas] = useState<any>();

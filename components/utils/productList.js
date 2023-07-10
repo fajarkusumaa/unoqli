@@ -441,11 +441,11 @@ export const productList = {
           to: 800000,
           count: 0,
         },
-        {
-          from: 800000,
-          to: 0,
-          count: 0,
-        },
+        // {
+        //   from: 800000,
+        //   to: 0,
+        //   count: 0,
+        // },
       ],
       ratings: [
         {

@@ -5,26 +5,47 @@ import React, { useEffect, useState } from "react";
 import { useCartStore } from "@/components/utils/cartStore";
 import { productList } from "../components/utils/productList";
 
-import { Button, Carousel } from "flowbite-react";
+import { Dropdown } from "@nextui-org/react";
+
+import {
+  Button,
+  Carousel,
+  Accordion,
+  Checkbox,
+  FileInput,
+  Label,
+  Radio,
+  RangeSlider,
+  Select,
+  Textarea,
+  TextInput,
+  ToggleSwitch,
+} from "flowbite-react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { ShoppingCart } from "lucide-react";
 import Head from "next/head";
 import Footer from "../components/Footer";
 
+import { FormatterPrice } from "../components/utils/FormatterPrice";
+import Article from "../components/Article";
+
 const product = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
+  const cart = useCartStore((state) => state.cart);
   const addToCart = useCartStore((state) => state.addToCart);
   const handleAddToCart = (item) => {
     addToCart(item);
-    setCartAnimate(true);
-    setTimeout(() => {
-      setCartAnimate(false);
-    }, 2000);
+    // setCartAnimate(true);
+    // setTimeout(() => {
+    //   setCartAnimate(false);
+    // }, 2000);
   };
 
   const [total, setTotal] = useState();
   const [list, setList] = useState();
+
+  const [aggregation, setAggregation] = useState();
 
   // Displayed Items
   const [displayedItems, setDisplayedItems] = useState(8);
@@ -32,9 +53,11 @@ const product = () => {
 
   const callProduct = () => {
     const totalItems = productList.result.items;
+    const callAggregation = productList.result.aggregations;
     const slicedItems = productList.result.items.slice(0, displayedItems);
     setList(slicedItems);
     setTotal(totalItems);
+    setAggregation(callAggregation);
   };
 
   useEffect(() => {
@@ -45,22 +68,14 @@ const product = () => {
     setDisplayedItems(
       (prevDisplayedItems) => prevDisplayedItems + itemsPerPage
     );
-
-    console.log(displayedItems);
   };
   // ----------------
 
-  // Format function
-  const formatPrice = (value) => {
-    return new Intl.NumberFormat("id-ID", {
-      style: "currency",
-      currency: "IDR",
-      minimumFractionDigits: 0,
-    }).format(value);
-  };
-  // ---
+  // const [cartAnimate, setCartAnimate] = useState(false);
 
-  const [cartAnimate, setCartAnimate] = useState(false);
+  // // Loading State
+  // const [loading, setLoading] = useState(true);
+  // console.log(loading);
 
   if (!list) {
     return (
@@ -84,51 +99,117 @@ const product = () => {
       <Head>
         <title>Product | Men</title>
       </Head>
-      <Navbar cartAnimate={cartAnimate} />
+      <Navbar />
 
       <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
         {/* Banner */}
-        <div className="container h-[450px] bg-slate-50 py-4 my-4 flex justify-center items-center">
+        <div className="container h-[450px] bg-slate-50 py-4 my-6 flex justify-center items-center">
           Banner
         </div>
         {/* ! Banner */}
-        <div className="container flex py-4 my-12 gap-4">
-          <div className="w-1/4 sticky pe-4 bg-slate-50 h-[400px] top-[15%]">
-            <p className="p-4 bg-slate-50">List Categories</p>
+        <div className="container flex py-4 my-6 gap-4">
+          <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
+            <>
+              <Accordion collapseAll flush className="border-transparent">
+                <Accordion.Panel>
+                  <Accordion.Title>Categories</Accordion.Title>
+                  <Accordion.Content>
+                    <ul>
+                      {aggregation.tree.subcategories.map((subs, i) => (
+                        <li key={i} className="p-4 hover:bg-slate-50">
+                          <a href="">{subs.name}</a>
+                        </li>
+                      ))}
+                    </ul>{" "}
+                  </Accordion.Content>
+                </Accordion.Panel>
+                <Accordion.Panel>
+                  <Accordion.Title className="border-0">Size</Accordion.Title>
+                  <Accordion.Content>
+                    <div className="flex flex-wrap gap-4">
+                      {aggregation.sizes.map((size, i) => (
+                        <div key={i} className="flex items-center gap-2">
+                          <input
+                            type="checkbox"
+                            id="react-option"
+                            value=""
+                            class="peer"
+                            required=""
+                          />
+                          <Label
+                            className="flex p-4 cursor-pointer peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+                            for="react-option"
+                          >
+                            <p>{size.name}</p>
+                          </Label>
+                        </div>
+                      ))}
+                    </div>
+                  </Accordion.Content>
+                </Accordion.Panel>
+                <Accordion.Panel>
+                  <Accordion.Title className="border-0">Price</Accordion.Title>
+                  <Accordion.Content>
+                    <div className="flex flex-wrap gap-4">
+                      {aggregation.prices.map((price, i) => (
+                        <div key={i} className="flex items-center gap-2">
+                          <Checkbox id="remember" />
+                          <Label htmlFor="remember">
+                            {FormatterPrice(price.from)}{" "}
+                            {FormatterPrice(price.to) === 0 ? null : (
+                              <>- {FormatterPrice(price.to)}</>
+                            )}
+                          </Label>
+                        </div>
+                      ))}
+                    </div>
+                  </Accordion.Content>
+                </Accordion.Panel>
+                <Accordion.Panel>
+                  <Accordion.Title className="border-0">Rating</Accordion.Title>
+                  <Accordion.Content>
+                    <div className="flex flex-wrap gap-4">
+                      <Button
+                        flush
+                        className="border-2 border-slate-50 bg-transparent text-slate-700 hover:text-white hover:bg-slate-700 flex-1 w"
+                      >
+                        wkw
+                      </Button>
+                    </div>
+                  </Accordion.Content>
+                </Accordion.Panel>
+              </Accordion>
+            </>
           </div>
+
           <div className="flex flex-col w-3/4 gap-2">
             <p>
-              Show{" "}
+              Showing{" "}
               <span className="font-semibold">
                 {displayedItems <= total.length ? displayedItems : total.length}
               </span>{" "}
-              from {total.length}
+              result from {total.length}
             </p>
+
+            {/* <div className="flex">
+              {" "}
+              <p className="">Sort by : </p>
+              <select name="" id="">
+                <p>11</p>
+              </select>
+            </div> */}
+
             <div className=" grid grid-cols-4 gap-4 h-fit">
               {list.map((item, i) => (
-                <article
+                <Article
                   key={i}
-                  className="flex flex-col justify-content-between relative gap-1 mb-2"
-                >
-                  <img src={item.images.main[0].url} alt="" />
-                  <button
-                    className="p-2 bg-gray-800 text-white hover:bg-gray-950 rounded-xl top-0 right-0 absolute"
-                    onClick={() => handleAddToCart(item)}
-                  >
-                    <ShoppingCart />
-                  </button>
-                  <p
-                    className="mt-2 text-base font-semibold flex-1
-                  "
-                  >
-                    {item.name}
-                  </p>
-                  <p className="mt-auto font-semibold text-rose-700 text-xl">
-                    {formatPrice(item.prices.base.value)}
-                  </p>
-                </article>
+                  item={item}
+                  handleAddToCart={handleAddToCart}
+                />
               ))}
             </div>
+
+            {/* Button load more */}
             {displayedItems !== total.length ? (
               <button
                 className="mt-10 border-2 border-slate-900  p-4 w-fit mx-auto"
@@ -139,6 +220,7 @@ const product = () => {
             ) : (
               ""
             )}
+            {/* End of button */}
           </div>
         </div>
       </div>

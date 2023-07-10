@@ -16,7 +16,7 @@ const Navbar = ({ cartAnimate }) => {
 
   return (
     <>
-      <div className="w-full flex justify-between items-center px-36 py-12 sticky  top-0 z-10 bg-white h-28 border-b-2 backdrop-blur-sm bg-opacity-90">
+      <div className="w-full flex justify-between items-center px-36 py-12 sticky  top-0 z-10 bg-white h-28 border-b-2 backdrop-blur-sm bg-opacity-90 ">
         {/* Left */}
         <Link href="/" className="w-1/3">
           <Image src="/logo.png" alt="" width={128} height={128} />{" "}
@@ -39,7 +39,10 @@ const Navbar = ({ cartAnimate }) => {
         {/* Right */}
         <div className="w-1/3 text-right flex justify-end gap-6">
           <button>
-            <Heart size={24} className="text-slate-700" />
+            <Heart
+              size={24}
+              className="text-slate-700 duration-400 ease-in hover:fill-rose-400 hover:stroke-rose-400 "
+            />
           </button>
           <button className="relative" onClick={() => setShow(true)}>
             {/* <MoveDown
@@ -49,8 +52,11 @@ const Navbar = ({ cartAnimate }) => {
                   : "invisible absolute"
               }`}
             /> */}
-            <ShoppingBag size={24} className="text-slate-700" />
-            <Badge className="bg-transparent absolute top-[-16px] right-[-10px] px-2">
+            <ShoppingBag
+              size={24}
+              className="text-slate-700 hover:fill-emerald-200"
+            />
+            <Badge className="bg-transparent absolute top-[-16px] right-[-10px] px-2 ">
               {cart.length === 0 ? (
                 ""
               ) : (
@@ -73,8 +79,8 @@ const Navbar = ({ cartAnimate }) => {
         ></div>
         <div
           className={`${
-            show == true ? "right-0" : "right-[-1000px]"
-          } fixed top-0 z-20 duration-200 ease-in-out`}
+            show == true ? "right-0 fixed visible" : "right-[-1000px] invisible"
+          } absolute top-0 z-20 duration-200 ease-in-out `}
         >
           {" "}
           <div ref={toggle} className="">

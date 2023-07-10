@@ -8,6 +8,9 @@ import { productUT } from "../components/utils/productUT";
 import Navbar from "@/components/Navbar";
 import { ShoppingCart } from "lucide-react";
 import Head from "next/head";
+import Article from "../components/Article";
+import Filter from "../components/Filter";
+import Footer from "../components/Footer";
 
 const ProductUT = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -24,7 +27,7 @@ const ProductUT = () => {
 
   // Displayed Items
 
-  const [displayedItems, setDisplayedItems] = useState(4);
+  const [displayedItems, setDisplayedItems] = useState(8);
   const itemsPerPage = 4;
 
   const callProduct = () => {
@@ -52,7 +55,7 @@ const ProductUT = () => {
     return (
       <>
         <Head>
-          <title>Product | Men</title>
+          <title>UT Collection</title>
         </Head>
         <div className="flex justify-center h-screen w-screen items-center">
           <img
@@ -68,7 +71,7 @@ const ProductUT = () => {
   return (
     <>
       <Head>
-        <title>Product | Men</title>
+        <title>UT Collection</title>
       </Head>
       <Navbar cartAnimate={cartAnimate} />
 
@@ -79,10 +82,10 @@ const ProductUT = () => {
         </div>
         {/* ! Banner */}
         <div className="container flex py-4 my-12 gap-4">
-          <div className="w-1/4 sticky pe-4 bg-slate-50 h-[400px] top-[15%]">
-            <p className="p-4 bg-slate-50">List Categories</p>
-          </div>
-          <div className="flex flex-col w-3/4 gap-2">
+          {/* <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
+            <Filter />
+          </div> */}
+          <div className="flex flex-col w-100 gap-2 flex-1">
             <p>
               Show{" "}
               <span className="font-semibold">
@@ -90,22 +93,14 @@ const ProductUT = () => {
               </span>{" "}
               from {total.length}
             </p>
+
             <div className=" grid grid-cols-4 gap-4 h-fit">
               {list.map((item, i) => (
-                <article
+                <Article
                   key={i}
-                  className="flex flex-col justify-content-between relative"
-                >
-                  <img src={item.images.main[0].url} alt="" />
-
-                  <button
-                    className="p-2 bg-gray-800 text-white hover:bg-gray-950 rounded-xl top-0 right-0 absolute"
-                    onClick={() => handleAddToCart(item)}
-                  >
-                    <ShoppingCart />
-                  </button>
-                  <p className="mt-2 text-base font-semibold">{item.name}</p>
-                </article>
+                  item={item}
+                  handleAddToCart={handleAddToCart}
+                />
               ))}
             </div>
             {displayedItems <= total.length ? (
@@ -121,6 +116,8 @@ const ProductUT = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

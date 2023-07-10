@@ -3,6 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { useCartStore } from "./utils/cartStore";
 
+import { FormatterPrice } from "./utils/FormatterPrice";
+
 const Drawer = ({ close }) => {
   const cart = useCartStore((state) => state.cart);
   const removeFromCart = useCartStore((state) => state.removeFromCart);
@@ -12,29 +14,33 @@ const Drawer = ({ close }) => {
     removeFromCart(index);
   };
 
-  const price = cart.reduce(
-    (result, item) => parseInt(item.prices.base.value, 10),
-    0
-  );
+  // const price = cart.reduce(
+  //   (result, item) => parseInt(item.prices.base.value, 10),
+  //   0
+  // );
 
-  const formattedPrice = new Intl.NumberFormat("id-ID", {
-    style: "currency",
-    currency: "IDR",
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 3,
-  }).format(price);
+  const totalPrice = cart.reduce((total, item) => {
+    const price = item.prices.promo
+      ? parseInt(item.prices.promo.value)
+      : parseInt(item.prices.base.value);
+    return total + price;
+  }, 0);
+  // Format function
+  const formatPrice = (value) => {
+    return new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR",
+      minimumFractionDigits: 0,
+    }).format(value);
+  };
+  // ---
 
-  const totalPrice = cart.reduce(
-    (total, item) => total + parseInt(item.prices.base.value, 10),
-    0
-  );
-
-  const formattedTotalPrice = new Intl.NumberFormat("id-ID", {
-    style: "currency",
-    currency: "IDR",
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 3,
-  }).format(totalPrice);
+  // const formattedTotalPrice = new Intl.NumberFormat("id-ID", {
+  //   style: "currency",
+  //   currency: "IDR",
+  //   minimumFractionDigits: 0,
+  //   maximumFractionDigits: 3,
+  // }).format(totalPrice);
 
   return (
     <>
@@ -67,6 +73,7 @@ const Drawer = ({ close }) => {
           {cart.length === 0 ? (
             <div className="flex flex-1 flex-col h-full justify-start items-center mt-24">
               <img
+                draggable={false}
                 className="h-1/3"
                 src="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
                 alt=""
@@ -79,33 +86,56 @@ const Drawer = ({ close }) => {
                 explore our store.
               </p>
               <Link href="./Product">
-                <button className="p-4 bg-rose-600 text-white mt-5 px-10">
+                <button className="p-4 bg-rose-700 text-white mt-5 px-10">
                   Explore
                 </button>
               </Link>
             </div>
           ) : (
-            cart.map((item, index) => (
-              <div key={index} className="shop-item flex gap-4">
-                <div>
-                  <img width={128} src={item.images.main[0].url} alt="" />
+            cart.map((item, index) => {
+              const sameProductItems = cart.filter(
+                (cartItem) => cartItem.productId === item.productId
+              );
+
+              const quantity = sameProductItems.length;
+
+              const isDuplicate = cart.some(
+                (cartItem, cartIndex) =>
+                  cartItem.productId === item.productId && cartIndex < index
+              );
+
+              if (isDuplicate) {
+                return null; // Skip rendering for duplicates
+              }
+
+              return (
+                <div key={index} className="shop-item flex gap-4">
+                  <div>
+                    <img width={128} src={item.images.main[0].url} alt="" />
+                  </div>
+                  <div className="flex flex-1 flex-col">
+                    <span className="text-lg font-semibold">{item.name} </span>
+                    <p className="text-base opacity-50">
+                      Size: {item.sizes[1].name}
+                    </p>
+                    <p className="text-base opacity-50">Qty: {quantity}</p>
+                    <p className="mt-auto font-semibold">
+                      {item.prices.promo === null ? (
+                        <>{FormatterPrice(item.prices.base.value)}</>
+                      ) : (
+                        <>{FormatterPrice(item.prices.promo.value)}</>
+                      )}{" "}
+                    </p>
+                  </div>
+                  <button
+                    onClick={() => handleRemoveFromCart(index)}
+                    className="self-start"
+                  >
+                    <Trash2 className="text-rose-500" />
+                  </button>
                 </div>
-                <div className="flex flex-1 flex-col">
-                  <span className="text-lg font-semibold">{item.name} </span>
-                  <p className="text-base opacity-50">
-                    Size: {item.sizes[1].name}
-                  </p>
-                  <p className="text-base opacity-50">Qty: </p>
-                  <p className="mt-auto font-semibold">{formattedPrice}</p>
-                </div>
-                <button
-                  onClick={() => handleRemoveFromCart(index)}
-                  className="self-start"
-                >
-                  <Trash2 className="text-rose-500" />
-                </button>
-              </div>
-            ))
+              );
+            })
           )}
         </div>
         {/* End Cart */}
@@ -113,13 +143,20 @@ const Drawer = ({ close }) => {
         {cart.length === 0 ? (
           ""
         ) : (
-          <Link
-            href="/Cart"
-            className="mt-auto text-right  text-xl p-4 bg-slate-50 text-slate-600 hover:bg-emerald-200 duration-200 ease-in-out"
-          >
-            {" "}
-            Total: <span className="font-semibold">{formattedTotalPrice} </span>
-          </Link>
+          <>
+            <div className="flex justify-between mt-auto text-xl">
+              <span>Total:</span>
+              <span className="font-semibold text-rose-700">
+                {FormatterPrice(totalPrice)}
+              </span>
+            </div>
+            <Link
+              href="/Cart"
+              className="text-center font-semibold uppercase text-xl p-4 bg-slate-50 text-slate-600 hover:bg-emerald-200 duration-200 ease-in-out"
+            >
+              Continue to Payment
+            </Link>
+          </>
         )}
         {/* End : Total */}
       </div>
