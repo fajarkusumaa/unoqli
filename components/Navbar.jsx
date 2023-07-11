@@ -1,10 +1,11 @@
-import { Badge } from "flowbite-react";
 import { Heart, ShoppingBag, MoveDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import Drawer from "./Drawer";
 import { useCartStore } from "./utils/cartStore";
+
+import { Badge, Dropdown } from "flowbite-react";
 
 const Navbar = ({ cartAnimate }) => {
   const [show, setShow] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = ({ cartAnimate }) => {
 
   return (
     <>
-      <div className="w-full flex justify-between items-center px-36 py-12 sticky  top-0 z-10 bg-white h-28 border-b-2 backdrop-blur-sm bg-opacity-90 ">
+      <div className="w-full flex justify-between items-center px-36 py-12 z-10 bg-white h-28 border-b-2 backdrop-blur-sm bg-opacity-90 ">
         {/* Left */}
         <Link href="/" className="w-1/3">
           <Image src="/logo.png" alt="" width={128} height={128} />{" "}
@@ -26,15 +27,39 @@ const Navbar = ({ cartAnimate }) => {
           <Link href="/" className="hover:text-rose-700">
             Home
           </Link>
-          <Link href="/Product" className="hover:text-rose-700">
-            Men
-          </Link>
-          <Link href="" className="hover:text-rose-700">
-            Women
-          </Link>
-          <Link href="" className="hover:text-rose-700">
-            Kiddo
-          </Link>
+
+          <Dropdown inline label="Men">
+            <Dropdown.Item>
+              <Link href="/men/tops">Tops</Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/men/UT">
+                UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
+              </Link>
+            </Dropdown.Item>
+          </Dropdown>
+
+          <Dropdown inline label="Women">
+            <Dropdown.Item>
+              <Link href="/women/tops">Tops</Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/women/UT">
+                UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
+              </Link>
+            </Dropdown.Item>
+          </Dropdown>
+
+          <Dropdown inline label="Kiddo">
+            <Dropdown.Item>
+              <Link href="/kiddo/tops">Tops</Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/kiddo/UT">
+                UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
+              </Link>
+            </Dropdown.Item>
+          </Dropdown>
         </div>
         {/* Right */}
         <div className="w-1/3 text-right flex justify-end gap-6">

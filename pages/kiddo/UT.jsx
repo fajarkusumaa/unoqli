@@ -3,14 +3,14 @@
 import React, { useEffect, useState } from "react";
 
 import { useCartStore } from "@/components/utils/cartStore";
-import { productUT } from "../components/utils/productUT";
+import { UT } from "../../components/utils/api/kiddo/UT";
 
 import Navbar from "@/components/Navbar";
 import { ShoppingCart } from "lucide-react";
 import Head from "next/head";
-import Article from "../components/Article";
-import Filter from "../components/Filter";
-import Footer from "../components/Footer";
+import Article from "../../components/Article";
+import Layout from "../../components/Layout";
+import Footer from "../../components/Footer";
 
 const ProductUT = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -31,8 +31,8 @@ const ProductUT = () => {
   const itemsPerPage = 4;
 
   const callProduct = () => {
-    const totalItems = productUT.result.items;
-    const slicedItems = productUT.result.items.slice(0, displayedItems);
+    const totalItems = UT.result.items;
+    const slicedItems = UT.result.items.slice(0, displayedItems);
     setList(slicedItems);
     setTotal(totalItems);
   };
@@ -73,51 +73,52 @@ const ProductUT = () => {
       <Head>
         <title>UT Collection</title>
       </Head>
-      <Navbar cartAnimate={cartAnimate} />
 
-      <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
-        {/* Banner */}
-        <div className="container h-[450px] bg-slate-50 py-4 my-4 flex justify-center items-center">
-          Banner
-        </div>
-        {/* ! Banner */}
-        <div className="container flex py-4 my-12 gap-4">
-          {/* <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
+      <Layout>
+        <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
+          {/* Banner */}
+          <div className="container h-[450px] bg-slate-50 py-4 my-4 flex justify-center items-center">
+            Banner
+          </div>
+          {/* ! Banner */}
+          <div className="container flex py-4 my-12 gap-4">
+            {/* <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
             <Filter />
           </div> */}
-          <div className="flex flex-col w-100 gap-2 flex-1">
-            <p>
-              Show{" "}
-              <span className="font-semibold">
-                {displayedItems <= total.length ? displayedItems : total.length}
-              </span>{" "}
-              from {total.length}
-            </p>
+            <div className="flex flex-col w-100 gap-2 flex-1">
+              <p>
+                Show{" "}
+                <span className="font-semibold">
+                  {displayedItems <= total.length
+                    ? displayedItems
+                    : total.length}
+                </span>{" "}
+                from {total.length}
+              </p>
 
-            <div className=" grid grid-cols-4 gap-4 h-fit">
-              {list.map((item, i) => (
-                <Article
-                  key={i}
-                  item={item}
-                  handleAddToCart={handleAddToCart}
-                />
-              ))}
+              <div className=" grid grid-cols-4 gap-4 h-fit">
+                {list.map((item, i) => (
+                  <Article
+                    key={i}
+                    item={item}
+                    handleAddToCart={handleAddToCart}
+                  />
+                ))}
+              </div>
+              {displayedItems <= total.length ? (
+                <button
+                  className="mt-4 border-2 border-slate-900  p-4 w-fit mx-auto"
+                  onClick={() => handleLoadMore()}
+                >
+                  Load More
+                </button>
+              ) : (
+                ""
+              )}
             </div>
-            {displayedItems <= total.length ? (
-              <button
-                className="mt-4 border-2 border-slate-900  p-4 w-fit mx-auto"
-                onClick={() => handleLoadMore()}
-              >
-                Load More
-              </button>
-            ) : (
-              ""
-            )}
           </div>
         </div>
-      </div>
-
-      <Footer />
+      </Layout>
     </>
   );
 };

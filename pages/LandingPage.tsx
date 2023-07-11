@@ -10,7 +10,6 @@ const LandingPage = () => {
   return (
     <>
       <div className="h-screen">
-        <Navbar cartAnimate={cartAnimate} />
         <Hero />
         <Category />
       </div>
