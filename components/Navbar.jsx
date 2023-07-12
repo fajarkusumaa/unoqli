@@ -7,17 +7,17 @@ import { useCartStore } from "./utils/cartStore";
 
 import { Badge, Dropdown } from "flowbite-react";
 
-const Navbar = ({ cartAnimate }) => {
+const Navbar = () => {
   const [show, setShow] = useState(false);
   const toggle = useRef(null);
 
   const cart = useCartStore((state) => state.cart);
 
-  console.log(cart);
+  console.log(cart.length);
 
   return (
     <>
-      <div className="w-full flex justify-between items-center px-36 py-12 z-10 bg-white h-28 border-b-2 backdrop-blur-sm bg-opacity-90 ">
+      <div className="w-full flex justify-between items-center px-36 py-auto z-10 bg-white h-24 border-b-2 border-slate-100 backdrop-blur-md bg-opacity-80 ">
         {/* Left */}
         <Link href="/" className="w-1/3">
           <Image src="/logo.png" alt="" width={128} height={128} />{" "}

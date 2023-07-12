@@ -1,19 +1,8 @@
-import { Accordion, Label, Checkbox, Button } from "flowbite-react";
+import { Accordion, Label, Button, Checkbox } from "flowbite-react";
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import { FormatterPrice } from "./utils/FormatterPrice";
 
-import { productList } from "../components/utils/productList";
-
-const Filter = () => {
-  const callAggregation = productList.result.aggregations;
-  const [aggregation, setAggregation] = useState();
-  console.log(aggregation);
-
-  useEffect(() => {
-    setAggregation(callAggregation);
-  }, []);
-
+const Filter = ({ aggregation, tree }) => {
   return (
     <>
       <Accordion collapseAll flush className="border-transparent">
@@ -22,8 +11,10 @@ const Filter = () => {
           <Accordion.Content>
             <ul>
               {aggregation.tree.subcategories.map((subs, i) => (
-                <li key={i} className="p-4 hover:bg-slate-50">
-                  <a href="">{subs.name}</a>
+                <li key={i} className="p-4 hover:bg-slate-50 capitalize">
+                  <a href="" className="capitalize">
+                    {subs.name}
+                  </a>
                 </li>
               ))}
             </ul>{" "}

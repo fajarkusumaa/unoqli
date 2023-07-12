@@ -28,6 +28,7 @@ import Footer from "../../components/Footer";
 import { FormatterPrice } from "../../components/utils/FormatterPrice";
 import Article from "../../components/Article";
 import Layout from "../../components/Layout";
+import Banner from "../../components/Banner";
 
 const product = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -101,10 +102,12 @@ const product = () => {
 
       <Layout>
         <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
-          {/* Banner */}
-          <div className="container h-[450px] bg-slate-50 py-4 my-6 flex justify-center items-center">
-            Banner
+          <div className="container">
+            {" "}
+            <h1 className="items-start text-4xl my-5">All Tops</h1>
           </div>
+          {/* Banner */}
+          <Banner list={list} />
           {/* ! Banner */}
           <div className="container flex py-4 my-6 gap-4">
             <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">

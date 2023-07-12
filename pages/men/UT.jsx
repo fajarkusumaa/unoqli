@@ -1,16 +1,16 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/rules-of-hooks */
-import React, { useEffect, useState } from "react";
+import React, { use, useEffect, useState } from "react";
 
 import { useCartStore } from "@/components/utils/cartStore";
-import { productUT } from "../../components/utils/productUT";
+import { UT } from "../../components/utils/api/men/UT";
 
-import Navbar from "@/components/Navbar";
-import { ShoppingCart } from "lucide-react";
 import Head from "next/head";
 import Article from "../../components/Article";
 import Layout from "../../components/Layout";
-import Footer from "../../components/Footer";
+import Banner from "../../components/Banner";
+import Filter from "../../components/Filter";
 
 const ProductUT = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -25,16 +25,20 @@ const ProductUT = () => {
   const [total, setTotal] = useState();
   const [list, setList] = useState();
 
+  const [aggregation, setAggregation] = useState();
+
   // Displayed Items
 
   const [displayedItems, setDisplayedItems] = useState(8);
   const itemsPerPage = 4;
 
   const callProduct = () => {
-    const totalItems = productUT.result.items;
-    const slicedItems = productUT.result.items.slice(0, displayedItems);
+    const totalItems = UT.result.items;
+    const callAggregation = UT.result.aggregations;
+    const slicedItems = UT.result.items.slice(0, displayedItems);
     setList(slicedItems);
     setTotal(totalItems);
+    setAggregation(callAggregation);
   };
 
   useEffect(() => {
@@ -76,15 +80,21 @@ const ProductUT = () => {
 
       <Layout>
         <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
-          {/* Banner */}
-          <div className="container h-[450px] bg-slate-50 py-4 my-4 flex justify-center items-center">
-            Banner
+          <div className="container">
+            {" "}
+            <h1 className="items-start text-4xl my-5">UT Collection</h1>
           </div>
+          {/* Banner */}
+          <Banner list={list} />
           {/* ! Banner */}
+
+          {/* Main */}
           <div className="container flex py-4 my-12 gap-4">
-            {/* <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
-            <Filter />
-          </div> */}
+            {/* Filter */}
+            <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
+              <Filter aggregation={aggregation} />
+            </div>
+            {/* /Filter */}
             <div className="flex flex-col w-100 gap-2 flex-1">
               <p>
                 Show{" "}

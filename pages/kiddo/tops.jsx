@@ -29,6 +29,8 @@ import Footer from "../../components/Footer";
 
 import { FormatterPrice } from "../../components/utils/FormatterPrice";
 import Article from "../../components/Article";
+import Banner from "../../components/Banner";
+import Filter from "../../components/Filter";
 
 const product = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -102,14 +104,16 @@ const product = () => {
 
       <Layout>
         <div className="w-screen flex flex-col items-center justify-center relative">
-          {/* Banner */}
-          <div className="container h-[450px] bg-slate-50 py-4 my-6 flex justify-center items-center">
-            Banner
+          <div className="container">
+            {" "}
+            <h1 className="items-start text-4xl my-5">All Tops</h1>
           </div>
+          {/* Banner */}
+          <Banner list={list} />
           {/* ! Banner */}
           <div className="container flex py-4 my-6 gap-4">
             <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
-              <>
+              {/* <>
                 <Accordion collapseAll flush className="border-transparent">
                   <Accordion.Panel>
                     <Accordion.Title>Categories</Accordion.Title>
@@ -183,7 +187,8 @@ const product = () => {
                     </Accordion.Content>
                   </Accordion.Panel>
                 </Accordion>
-              </>
+              </> */}
+              <Filter aggregation={aggregation} />
             </div>
 
             <div className="flex flex-col w-3/4 gap-2">
