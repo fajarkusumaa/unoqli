@@ -4,7 +4,6 @@
 import React, { useEffect, useState } from "react";
 
 import { useCartStore } from "@/components/utils/cartStore";
-import { Tops } from "../../components/utils/api/men/Tops";
 
 import Layout from "../../components/Layout";
 
@@ -18,40 +17,54 @@ import Filter from "../../components/Filter";
 import axios from "axios";
 
 const product = () => {
-  const allPokeUrl = "https://pokeapi.co/api/v2/pokemon";
-  const [pokename, setPokename] = useState("ditto");
-  const apiUrl = `https://pokeapi.co/api/v2/pokemon/${pokename}`;
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const cart = useCartStore((state) => state.cart);
+  const addToCart = useCartStore((state) => state.addToCart);
+  const handleAddToCart = (item) => {
+    addToCart(item);
+  };
 
-  const [allPoke, setAllPoke] = useState();
+  const [aggregation, setAggregation] = useState();
+  console.log(aggregation);
+
+  // Displayed Items
+  const [displayedItems, setDisplayedItems] = useState(8);
+  const itemsPerPage = 4;
+
+  const [apiUrl, setApiUrl] = useState("product");
+  console.log(apiUrl);
+
+  const allItems = `https://fajarkusumaa.github.io/unoqli/components/utils/api/${apiUrl}/db.json`;
+  // const [pokename, setPokename] = useState("ditto");
+  // const apiUrl = `https://pokeapi.co/api/v2/pokemon/${pokename}`;
+
+  const [total, setTotal] = useState();
+  const [list, setList] = useState();
   const [poke, setPoke] = useState();
 
-  console.log(pokename);
-  console.log(allPoke);
-  console.log(poke);
+  console.log(total);
+  console.log(list);
 
-  const fetchAllPoke = async () => {
+  const fetchAllItem = async () => {
     try {
-      const response = await axios.get(allPokeUrl);
-      setAllPoke(response.data.results);
-    } catch (error) {
-      console.error("error fetching data", error);
-    }
-  };
-  const fetchPoke = async () => {
-    try {
-      const response = await axios.get(apiUrl);
-      setPoke(response.data);
+      const response = await axios.get(allItems);
+      setTotal(response.data.result.items);
+      setAggregation(response.data.result.aggregations);
+      const slicedItems = response.data.result.items.slice(0, displayedItems);
+
+      setList(slicedItems);
+
+      //
     } catch (error) {
       console.error("error fetching data", error);
     }
   };
 
   useEffect(() => {
-    fetchAllPoke();
-    fetchPoke();
-  }, [pokename, apiUrl]);
+    fetchAllItem();
+  }, [apiUrl]);
 
-  if (!allPoke) {
+  if (!list) {
     return (
       <>
         <Head>{/* <title>{aggregation.tree.categories.name}</title> */}</Head>
@@ -68,32 +81,62 @@ const product = () => {
         <title>Pokemon</title>
       </Head>
 
-      <div className="flex">
-        <div className="w-1/2 bg-slate-50">
-          <h1>Poke Detail</h1>
+      <Layout>
+        <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
+          {/* Banner */}
+          <Banner list={list} aggregation={aggregation} />
+          {/* ! Banner */}
+          {/* Main */}
+          <div className="container flex py-4 my-6 gap-4">
+            <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
+              <Filter aggregation={aggregation} setUrl={setApiUrl} />
+            </div>
 
-          <div className="flex flex-col">
-            {poke && (
-              <>
-                <p>{poke.name}</p>
-              </>
-            )}
+            <div className="flex flex-col w-3/4 gap-2">
+              <p>
+                Showing{" "}
+                <span className="font-semibold">
+                  {displayedItems <= total.length
+                    ? displayedItems
+                    : total.length}
+                </span>{" "}
+                result from {total.length}
+              </p>
+
+              {/* <div className="flex">
+              {" "}
+              <p className="">Sort by : </p>
+              <select name="" id="">
+                <p>11</p>
+              </select>
+            </div> */}
+
+              <div className=" grid grid-cols-4 gap-4 h-fit">
+                {list.map((item, i) => (
+                  <Article
+                    key={i}
+                    item={item}
+                    handleAddToCart={handleAddToCart}
+                  />
+                ))}
+              </div>
+
+              {/* Button load more */}
+              {displayedItems !== total.length ? (
+                <button
+                  className="mt-10 border-2 border-slate-900  p-4 w-fit mx-auto"
+                  onClick={() => handleLoadMore()}
+                >
+                  Load More
+                </button>
+              ) : (
+                ""
+              )}
+              {/* End of button */}
+            </div>
           </div>
-        </div>{" "}
-        <div className="w-1/2 bg-slate-400 ">
-          <h1>pokemon list</h1>
-          <div className="flex-wrap flex gap-3">
-            {allPoke.map((data, i) => (
-              <button
-                onClick={() => setPokename(data.name)}
-                className="p-2 bg-slate-800 text-white"
-              >
-                {data.name}
-              </button>
-            ))}
-          </div>
-        </div>{" "}
-      </div>
+        </div>
+      </Layout>
     </>
   );
 };

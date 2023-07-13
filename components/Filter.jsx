@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Link from "next/link";
 
-const Filter = ({ aggregation }) => {
+const Filter = ({ aggregation, setUrl }) => {
   const [Menu, setMenu] = useState([]);
 
   const getMenu = allMenu.result.menu[0].children[0].items;
@@ -41,12 +41,13 @@ const Filter = ({ aggregation }) => {
                               return (
                                 <ul key={i}>
                                   {" "}
-                                  <Link
+                                  <button
+                                    onClick={() => setUrl(submenu.url)}
                                     href=""
                                     className="p-4 block hover:bg-slate-200 duration-150 ease-in-out"
                                   >
                                     {submenu.label}
-                                  </Link>
+                                  </button>
                                 </ul>
                               );
                             })}
