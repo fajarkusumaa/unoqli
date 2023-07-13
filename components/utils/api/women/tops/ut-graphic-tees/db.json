@@ -19,16 +19,6 @@
           "name": "GRAY"
         },
         {
-          "code": "COL06",
-          "displayCode": "06",
-          "name": "GRAY"
-        },
-        {
-          "code": "COL07",
-          "displayCode": "07",
-          "name": "GRAY"
-        },
-        {
           "code": "COL08",
           "displayCode": "08",
           "name": "DARK GRAY"
@@ -49,19 +39,9 @@
           "name": "PINK"
         },
         {
-          "code": "COL14",
-          "displayCode": "14",
-          "name": "RED"
-        },
-        {
-          "code": "COL16",
-          "displayCode": "16",
-          "name": "RED"
-        },
-        {
-          "code": "COL18",
-          "displayCode": "18",
-          "name": "WINE"
+          "code": "COL21",
+          "displayCode": "21",
+          "name": "LIGHT ORANGE"
         },
         {
           "code": "COL24",
@@ -79,44 +59,14 @@
           "name": "ORANGE"
         },
         {
-          "code": "COL30",
-          "displayCode": "30",
-          "name": "NATURAL"
-        },
-        {
           "code": "COL31",
           "displayCode": "31",
           "name": "BEIGE"
         },
         {
-          "code": "COL41",
-          "displayCode": "41",
-          "name": "YELLOW"
-        },
-        {
           "code": "COL43",
           "displayCode": "43",
           "name": "YELLOW"
-        },
-        {
-          "code": "COL44",
-          "displayCode": "44",
-          "name": "YELLOW"
-        },
-        {
-          "code": "COL46",
-          "displayCode": "46",
-          "name": "YELLOW"
-        },
-        {
-          "code": "COL50",
-          "displayCode": "50",
-          "name": "LIGHT GREEN"
-        },
-        {
-          "code": "COL53",
-          "displayCode": "53",
-          "name": "GREEN"
         },
         {
           "code": "COL55",
@@ -129,11 +79,6 @@
           "name": "OLIVE"
         },
         {
-          "code": "COL60",
-          "displayCode": "60",
-          "name": "LIGHT BLUE"
-        },
-        {
           "code": "COL61",
           "displayCode": "61",
           "name": "BLUE"
@@ -141,11 +86,6 @@
         {
           "code": "COL62",
           "displayCode": "62",
-          "name": "BLUE"
-        },
-        {
-          "code": "COL63",
-          "displayCode": "63",
           "name": "BLUE"
         },
         {
@@ -159,18 +99,8 @@
           "name": "BLUE"
         },
         {
-          "code": "COL66",
-          "displayCode": "66",
-          "name": "BLUE"
-        },
-        {
           "code": "COL67",
           "displayCode": "67",
-          "name": "BLUE"
-        },
-        {
-          "code": "COL68",
-          "displayCode": "68",
           "name": "BLUE"
         },
         {
@@ -179,13 +109,13 @@
           "name": "NAVY"
         },
         {
-          "code": "COL74",
-          "displayCode": "74",
+          "code": "COL72",
+          "displayCode": "72",
           "name": "PURPLE"
         },
         {
-          "code": "COL77",
-          "displayCode": "77",
+          "code": "COL74",
+          "displayCode": "74",
           "name": "PURPLE"
         },
         {
@@ -247,12 +177,12 @@
         {
           "from": 100000,
           "to": 200000,
-          "count": 136
+          "count": 73
         },
         {
           "from": 200000,
           "to": 400000,
-          "count": 12
+          "count": 8
         },
         {
           "from": 400000,
@@ -273,58 +203,58 @@
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 149,
-          "count": 62
+          "accumulated": 82,
+          "count": 42
         },
         {
           "rating": 0.5,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 1,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 1.5,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 2,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 2.5,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 3,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 3.5,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 0
         },
         {
           "rating": 4,
-          "accumulated": 87,
+          "accumulated": 40,
           "count": 1
         },
         {
           "rating": 4.5,
-          "accumulated": 86,
-          "count": 33
+          "accumulated": 39,
+          "count": 13
         },
         {
           "rating": 5,
-          "accumulated": 53,
-          "count": 53
+          "accumulated": 26,
+          "count": 26
         }
       ],
       "sizes": [
@@ -367,153 +297,89 @@
       "tree": {
         "genders": [
           {
-            "id": 15119,
-            "name": "MEN"
+            "id": 15073,
+            "name": "WOMEN"
           }
         ],
         "classes": [
           {
-            "id": 15132,
+            "id": 15122,
             "name": "TOPS"
           }
         ],
         "categories": [
           {
-            "id": 15972,
+            "id": 15520,
             "name": "UT(Graphic T-Shirts)"
           }
         ],
         "subcategories": [
           {
-            "id": 48170,
-            "name": "Hokusai Art of Water"
+            "id": 48159,
+            "name": "Sanrio characters: Kuromi & My Melody"
           },
           {
-            "id": 48161,
+            "id": 48160,
             "name": "MAGIC FOR ALL FOREVER"
           },
           {
-            "id": 46448,
+            "id": 47794,
             "name": "Disney Good Vibes"
           },
           {
-            "id": 43649,
-            "name": "My Hero Academia"
+            "id": 47233,
+            "name": "Pixar Art 23SS"
           },
           {
-            "id": 46179,
-            "name": "PIXAR ART"
+            "id": 47234,
+            "name": "L A Eats 23SS"
           },
           {
-            "id": 46705,
-            "name": "L.A. EATS"
+            "id": 47136,
+            "name": "My Hero Academia 23ss"
           },
           {
-            "id": 46455,
-            "name": "Mickey Stands"
-          },
-          {
-            "id": 46375,
+            "id": 46548,
             "name": "Ichikawa Danjūrō XIII, Hakuen | Shochiku Kabuki"
           },
           {
-            "id": 46014,
-            "name": "Pokémon Masters EX"
+            "id": 46329,
+            "name": "THE WORLD OF CLAMP"
           },
           {
-            "id": 45715,
-            "name": "BLEACH: Thousand-Year Blood War"
+            "id": 23285,
+            "name": "Pokemon"
           },
           {
-            "id": 45689,
-            "name": "The Marvel Art Collection by Mondo"
-          },
-          {
-            "id": 41179,
+            "id": 45686,
             "name": "DRAGON BALL"
           },
           {
-            "id": 45688,
+            "id": 45687,
             "name": "UT Me"
           },
           {
-            "id": 45263,
-            "name": "Doraemon Sustainability Mode"
-          },
-          {
-            "id": 45220,
-            "name": "NARUTO"
-          },
-          {
-            "id": 42831,
-            "name": "UTGP2023: MAGIC FOR ALL"
-          },
-          {
-            "id": 45188,
+            "id": 45518,
             "name": "MFA Lengan Pendek"
           },
           {
-            "id": 44528,
-            "name": "Louvre by M/M (Paris)"
+            "id": 42830,
+            "name": "UTGP2023: MAGIC FOR ALL"
           },
           {
-            "id": 41795,
-            "name": "Splatoon 3"
-          },
-          {
-            "id": 43840,
+            "id": 44164,
             "name": "Introduction of Detective Conan (Case Closed)"
           },
           {
-            "id": 41794,
-            "name": "Legends of Graphics"
-          },
-          {
-            "id": 41796,
+            "id": 44032,
             "name": "THE SUPER MARIO BROS. MOVIE"
           },
           {
-            "id": 42912,
-            "name": "Shin Japan Heroes Universe"
+            "id": 41793,
+            "name": "Andy Warhol Flowers Collection"
           },
           {
-            "id": 42070,
-            "name": "PlayStation™| UT"
-          },
-          {
-            "id": 41761,
-            "name": "UT ARCHIVE ONE PIECE / NARUTO / BLEACH"
-          },
-          {
-            "id": 38701,
-            "name": "UT ARCHIVE ONEPIECE / NARUTO"
-          },
-          {
-            "id": 40435,
-            "name": "Yusuke Hanai"
-          },
-          {
-            "id": 40077,
-            "name": "UT ARCHIVE Andy WarholKeith Haring / Jean-Michel Basquiat"
-          },
-          {
-            "id": 22001,
-            "name": "My Style My Ghibli"
-          },
-          {
-            "id": 39516,
-            "name": "Mickey Stands"
-          },
-          {
-            "id": 22281,
-            "name": "Mickey Stands"
-          },
-          {
-            "id": 38534,
-            "name": "PEACE FOR ALL"
-          },
-          {
-            "id": 30036,
+            "id": 30863,
             "name": "PEACE FOR ALL"
           }
         ]
@@ -1379,6 +1245,1977 @@
             "code": "SMA008",
             "displayCode": "008",
             "name": "3XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/item/idgoods_09_462063.jpg",
+              "colorCode": "09"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/chip/goods_09_462063_chip.jpg",
+              "colorCode": "09"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub27.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "462063",
+        "longDescription": "This “Monsters, Inc.” print features a mosaic created by Adam Lister. The adults’ version featuring Sully and the kids’ version featuring Mike are cleverly designed so that the text joins up across both shirts when worn together as a parent-and-child matching outfit.<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Adam Lister<br>Adam Lister lives and works in Beacon, New York. Lister is a visual artist whose work consists of geometric interpretations of iconic imagery and pop culture references. Lister breaks down classic images to their most elemental forms by combining the deconstructed and minimal aesthetic of pixelated graphics with the transparency of watercolor paint and the flatness of acrylic paint.<br><br>©Disney/Pixar<br>©Disney",
+        "name": "Pixar Art Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E462063-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 2,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 2
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07632930",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462063_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/item/idgoods_00_462062.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/chip/goods_00_462062_chip.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub27.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "462062",
+        "longDescription": "This “Toy Story” print features a mosaic created by Adam Lister. The characters and the iconic wallpaper from Andy’s room in the first “Toy Story” movie are reinterpreted as geometric pixel art.<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Adam Lister<br>Adam Lister lives and works in Beacon, New York. Lister is a visual artist whose work consists of geometric interpretations of iconic imagery and pop culture references. Lister breaks down classic images to their most elemental forms by combining the deconstructed and minimal aesthetic of pixelated graphics with the transparency of watercolor paint and the flatness of acrylic paint.<br><br>©Disney/Pixar<br>©Disney",
+        "name": "Pixar Art Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E462062-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 2,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 2
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07632921",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462062_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL69",
+            "displayCode": "69",
+            "name": "NAVY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/item/idgoods_69_462061.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/chip/goods_69_462061_chip.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub11.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub27.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "462061",
+        "longDescription": "This “Monsters, Inc.” print features a hand-drawn graphic created by Kazuma Mikami. A small graphic on the front shows the door connecting the monster world to the human world, while the lovable characters Mike and Sully are depicted on the back.<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Kazuma Mikami<br>Based in Tokyo. His style is characterized by the use of both digital and analog techniques. He works mainly for magazines, advertisements, and music videos as an illustrator. Recently, he has been involved in a wide range of activities as an artist, including the creation of ceramic works using VR.<br><br>©Disney/Pixar<br>©Disney",
+        "name": "Pixar Art Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E462061-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 7,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 7
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL69",
+            "displayCode": "69",
+            "name": "NAVY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07632912",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462061_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/item/idgoods_00_457983.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/chip/goods_00_457983_chip.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub11.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub27.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "457983",
+        "longDescription": "This “Toy Story” print features a hand-drawn graphic created by Kazuma Mikami. The design recalls the memorable farewell scene between Andy and the toys in “Toy Story 3.”<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Kazuma Mikami<br>Based in Tokyo. His style is characterized by the use of both digital and analog techniques. He works mainly for magazines, advertisements, and music videos as an illustrator. Recently, he has been involved in a wide range of activities as an artist, including the creation of ceramic works using VR.<br><br>©Disney/Pixar<br>©Disney",
+        "name": "Pixar Art Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E457983-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 6,
+          "fit": 3.1666666666666665,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 6
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07632903",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/457983_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL69",
+            "displayCode": "69",
+            "name": "NAVY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/item/idgoods_69_461335.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/chip/goods_69_461335_chip.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub3.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "461335",
+        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
+        "name": "L.A. Eats Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "249000.0000"
+          }
+        },
+        "productId": "E461335-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL69",
+            "displayCode": "69",
+            "name": "NAVY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07610200",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/461335_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL31",
+            "displayCode": "31",
+            "name": "BEIGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/item/idgoods_31_461334.jpg",
+              "colorCode": "31"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/chip/goods_31_461334_chip.jpg",
+              "colorCode": "31"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub3.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "461334",
+        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
+        "name": "L.A. Eats Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "249000.0000"
+          }
+        },
+        "productId": "E461334-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 4.5,
+          "count": 2,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 1,
+            "five": 1
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL31",
+            "displayCode": "31",
+            "name": "BEIGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07610191",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/461334_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/item/idgoods_00_461333.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/chip/goods_00_461333_chip.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub3.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "461333",
+        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
+        "name": "L.A. Eats Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "249000.0000"
+          }
+        },
+        "productId": "E461333-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07610182",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/461333_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/item/idgoods_00_459340.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/chip/goods_00_459340_chip.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub3.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "459340",
+        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
+        "name": "L.A. Eats Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "249000.0000"
+          }
+        },
+        "productId": "E459340-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 1,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 1
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07610173",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/459340_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL64",
+            "displayCode": "64",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/item/idgoods_64_459299.jpg",
+              "colorCode": "64"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/chip/goods_64_459299_chip.jpg",
+              "colorCode": "64"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub3.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "459299",
+        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
+        "name": "L.A. Eats Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "249000.0000"
+          }
+        },
+        "productId": "E459299-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL64",
+            "displayCode": "64",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07610164",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/459299_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL55",
+            "displayCode": "55",
+            "name": "GREEN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/item/idgoods_55_456302.jpg",
+              "colorCode": "55"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/chip/goods_55_456302_chip.jpg",
+              "colorCode": "55"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub3.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "456302",
+        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
+        "name": "L.A. Eats Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "249000.0000"
+          }
+        },
+        "productId": "E456302-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 1,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 1
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL55",
+            "displayCode": "55",
+            "name": "GREEN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07610155",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/456302_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -2604,2553 +4441,6 @@
         "careInstruction": "<br>",
         "colors": [
           {
-            "code": "COL09",
-            "displayCode": "09",
-            "name": "BLACK",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/item/idgoods_09_462063.jpg",
-              "colorCode": "09"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/chip/goods_09_462063_chip.jpg",
-              "colorCode": "09"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462063/sub/goods_462063_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub27.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462063/sub/idgoods_462063_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "462063",
-        "longDescription": "This “Monsters, Inc.” print features a mosaic created by Adam Lister. The adults’ version featuring Sully and the kids’ version featuring Mike are cleverly designed so that the text joins up across both shirts when worn together as a parent-and-child matching outfit.<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Adam Lister<br>Adam Lister lives and works in Beacon, New York. Lister is a visual artist whose work consists of geometric interpretations of iconic imagery and pop culture references. Lister breaks down classic images to their most elemental forms by combining the deconstructed and minimal aesthetic of pixelated graphics with the transparency of watercolor paint and the flatness of acrylic paint.<br><br>©Disney/Pixar<br>©Disney",
-        "name": "Pixar Art Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E462063-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 5,
-          "count": 2,
-          "fit": 3,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 2
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL09",
-            "displayCode": "09",
-            "name": "BLACK",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07632930",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462063_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/item/idgoods_00_462062.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/chip/goods_00_462062_chip.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462062/sub/goods_462062_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub27.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462062/sub/idgoods_462062_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "462062",
-        "longDescription": "This “Toy Story” print features a mosaic created by Adam Lister. The characters and the iconic wallpaper from Andy’s room in the first “Toy Story” movie are reinterpreted as geometric pixel art.<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Adam Lister<br>Adam Lister lives and works in Beacon, New York. Lister is a visual artist whose work consists of geometric interpretations of iconic imagery and pop culture references. Lister breaks down classic images to their most elemental forms by combining the deconstructed and minimal aesthetic of pixelated graphics with the transparency of watercolor paint and the flatness of acrylic paint.<br><br>©Disney/Pixar<br>©Disney",
-        "name": "Pixar Art Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E462062-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 5,
-          "count": 2,
-          "fit": 3,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 2
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07632921",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462062_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/item/idgoods_69_462061.jpg",
-              "colorCode": "69"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/chip/goods_69_462061_chip.jpg",
-              "colorCode": "69"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub11.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462061/sub/goods_462061_sub21.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub27.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462061/sub/idgoods_462061_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "462061",
-        "longDescription": "This “Monsters, Inc.” print features a hand-drawn graphic created by Kazuma Mikami. A small graphic on the front shows the door connecting the monster world to the human world, while the lovable characters Mike and Sully are depicted on the back.<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Kazuma Mikami<br>Based in Tokyo. His style is characterized by the use of both digital and analog techniques. He works mainly for magazines, advertisements, and music videos as an illustrator. Recently, he has been involved in a wide range of activities as an artist, including the creation of ceramic works using VR.<br><br>©Disney/Pixar<br>©Disney",
-        "name": "Pixar Art Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E462061-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 5,
-          "count": 7,
-          "fit": 3,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 7
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07632912",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462061_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton ( 25% Uses Recycled Cotton Fiber )",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/item/idgoods_00_457983.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/chip/goods_00_457983_chip.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub11.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457983/sub/goods_457983_sub21.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub27.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457983/sub/idgoods_457983_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "457983",
-        "longDescription": "This “Toy Story” print features a hand-drawn graphic created by Kazuma Mikami. The design recalls the memorable farewell scene between Andy and the toys in “Toy Story 3.”<br><br>PIXAR ART<br><br>Pixar Animation Studios has created such beloved films as “Toy Story” and “Monsters, Inc.,” which continue to be loved by people all over the world. UNIQLO has invited artists who love Pixar films to reinterpret the famous characters in their own distinct style.<br><br>Kazuma Mikami<br>Based in Tokyo. His style is characterized by the use of both digital and analog techniques. He works mainly for magazines, advertisements, and music videos as an illustrator. Recently, he has been involved in a wide range of activities as an artist, including the creation of ceramic works using VR.<br><br>©Disney/Pixar<br>©Disney",
-        "name": "Pixar Art Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E457983-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 5,
-          "count": 6,
-          "fit": 3.1666666666666665,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 6
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07632903",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Contemporary artists have created unique, never-before-seen designs of Pixar characters, now available on UT!",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/457983_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/item/idgoods_69_461335.jpg",
-              "colorCode": "69"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/chip/goods_69_461335_chip.jpg",
-              "colorCode": "69"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub9.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461335/sub/goods_461335_sub21.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461335/sub/idgoods_461335_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "461335",
-        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
-        "name": "L.A. Eats Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "249000.0000"
-          }
-        },
-        "productId": "E461335-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07610200",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/461335_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL31",
-            "displayCode": "31",
-            "name": "BEIGE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/item/idgoods_31_461334.jpg",
-              "colorCode": "31"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/chip/goods_31_461334_chip.jpg",
-              "colorCode": "31"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub4.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461334/sub/goods_461334_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461334/sub/idgoods_461334_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "461334",
-        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
-        "name": "L.A. Eats Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "249000.0000"
-          }
-        },
-        "productId": "E461334-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 4.5,
-          "count": 2,
-          "fit": 3,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 1,
-            "five": 1
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL31",
-            "displayCode": "31",
-            "name": "BEIGE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07610191",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/461334_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/item/idgoods_00_461333.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/chip/goods_00_461333_chip.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub4.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub9.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461333/sub/goods_461333_sub21.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/461333/sub/idgoods_461333_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "461333",
-        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
-        "name": "L.A. Eats Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "249000.0000"
-          }
-        },
-        "productId": "E461333-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07610182",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/461333_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/item/idgoods_00_459340.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/chip/goods_00_459340_chip.jpg",
-              "colorCode": "00"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub9.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459340/sub/goods_459340_sub21.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459340/sub/idgoods_459340_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "459340",
-        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
-        "name": "L.A. Eats Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "249000.0000"
-          }
-        },
-        "productId": "E459340-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 5,
-          "count": 1,
-          "fit": 3,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 1
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL00",
-            "displayCode": "00",
-            "name": "WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07610173",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/459340_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL64",
-            "displayCode": "64",
-            "name": "BLUE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/item/idgoods_64_459299.jpg",
-              "colorCode": "64"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/chip/goods_64_459299_chip.jpg",
-              "colorCode": "64"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub4.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/459299/sub/goods_459299_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/459299/sub/idgoods_459299_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "459299",
-        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
-        "name": "L.A. Eats Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "249000.0000"
-          }
-        },
-        "productId": "E459299-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL64",
-            "displayCode": "64",
-            "name": "BLUE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07610164",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/459299_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL55",
-            "displayCode": "55",
-            "name": "GREEN",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/item/idgoods_55_456302.jpg",
-              "colorCode": "55"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/chip/goods_55_456302_chip.jpg",
-              "colorCode": "55"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub4.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456302/sub/goods_456302_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub26.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/456302/sub/idgoods_456302_sub28.jpg"
-            }
-          ]
-        },
-        "l1Id": "456302",
-        "longDescription": "L.A. EATS<br><br>Los Angeles in the USA is the birthplace of food culture. These L.A. hotspot eateries now make their own T-shirts and are loved by locals as well as visitors. This collection features three establishments that are trending in the food community: Pizzanista!, Burger She Wrote, and Katsu Sando.<br><br>© 2023 Skate or Pie Worldwide, LLC All Rights Reserved.<br>© 2023 Burger She Wrote Hollywood LLC<br>© 2023 KATSU SANDO INC.",
-        "name": "L.A. Eats Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "249000.0000"
-          }
-        },
-        "productId": "E456302-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": 5,
-          "count": 1,
-          "fit": 3,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 1
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL55",
-            "displayCode": "55",
-            "name": "GREEN",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07610155",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "A collection features three establishments in Los Angeles that are trending in the food community.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/456302_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 1,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL08",
-            "displayCode": "08",
-            "name": "DARK GRAY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Men",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/item/goods_08_463159.jpg",
-              "colorCode": "08"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/chip/goods_08_463159_chip.jpg",
-              "colorCode": "08"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463159/sub/goods_463159_sub25.jpg"
-            }
-          ]
-        },
-        "l1Id": "463159",
-        "longDescription": "Mickey Stands<br><br>This limited-edition collection, available only at UNIQLO, was made possible through a joint project with Disney. Mickey Mouse as envisioned by Disney's designers is expressed on each and every T-shirt. The poses may be standard, but Mickey Mouse that each of us envisions is so different. Let's Find your Mickey.<br><br>©Disney",
-        "name": "Mickey Stands Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E463159-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL08",
-            "displayCode": "08",
-            "name": "DARK GRAY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07760063",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Mickey Mouse's iconic standing pose, as depicted by Disney's top creators.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/463159_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA008",
-            "displayCode": "008",
-            "name": "3XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 0,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL18",
-            "displayCode": "18",
-            "name": "WINE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Men",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/item/goods_18_463158.jpg",
-              "colorCode": "18"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/chip/goods_18_463158_chip.jpg",
-              "colorCode": "18"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub20.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463158/sub/goods_463158_sub25.jpg"
-            }
-          ]
-        },
-        "l1Id": "463158",
-        "longDescription": "Mickey Stands<br><br>This limited-edition collection, available only at UNIQLO, was made possible through a joint project with Disney. Mickey Mouse as envisioned by Disney's designers is expressed on each and every T-shirt. The poses may be standard, but Mickey Mouse that each of us envisions is so different. Let's Find your Mickey.<br><br>©Disney",
-        "name": "Mickey Stands Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E463158-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL18",
-            "displayCode": "18",
-            "name": "WINE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07760054",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Mickey Mouse's iconic standing pose, as depicted by Disney's top creators.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/463158_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA008",
-            "displayCode": "008",
-            "name": "3XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 0,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
-            "code": "COL68",
-            "displayCode": "68",
-            "name": "BLUE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Cotton",
-        "designDetail": "",
-        "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Men",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/item/goods_68_463157.jpg",
-              "colorCode": "68"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/chip/goods_68_463157_chip.jpg",
-              "colorCode": "68"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub15.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub17.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub18.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub19.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub23.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/463157/sub/goods_463157_sub25.jpg"
-            }
-          ]
-        },
-        "l1Id": "463157",
-        "longDescription": "Mickey Stands<br><br>This limited-edition collection, available only at UNIQLO, was made possible through a joint project with Disney. Mickey Mouse as envisioned by Disney's designers is expressed on each and every T-shirt. The poses may be standard, but Mickey Mouse that each of us envisions is so different. Let's Find your Mickey.<br><br>©Disney",
-        "name": "Mickey Stands Short Sleeve UT",
-        "prices": {
-          "promo": null,
-          "base": {
-            "currency": {
-              "code": "IDR",
-              "symbol": "Rp"
-            },
-            "value": "199000.0000"
-          }
-        },
-        "productId": "E463157-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": ["display", "sale"],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL68",
-            "displayCode": "68",
-            "name": "BLUE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "07760045",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 24,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Mickey Mouse's iconic standing pose, as depicted by Disney's top creators.",
-        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/463157_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA002",
-            "displayCode": "002",
-            "name": "XS",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA003",
-            "displayCode": "003",
-            "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA008",
-            "displayCode": "008",
-            "name": "3XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 0,
-        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
-      },
-      {
-        "careInstruction": "<br>",
-        "colors": [
-          {
             "code": "COL00",
             "displayCode": "00",
             "name": "WHITE",
@@ -5341,11 +4631,587 @@
         ],
         "unisexFlag": 1,
         "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457960/item/idgoods_09_457960.jpg",
+              "colorCode": "09"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/chip/goods_09_457960_chip.jpg",
+              "colorCode": "09"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457960/sub/idgoods_457960_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/sub/goods_457960_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/sub/goods_457960_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/sub/goods_457960_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/sub/goods_457960_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/sub/goods_457960_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457960/sub/goods_457960_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457960/sub/idgoods_457960_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457960/sub/idgoods_457960_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "457960",
+        "longDescription": "The graphic motif is based on the symbolic purple Hachimaki, red and white coloring, and crest from the costume of \"Sukeroku,\" one of the \"Kabuki Juhachiban.<br>Sukeroku's chic appearance fascinated people and he was called \"the most handsome man in Edo\".<br>Kabuki costumes are an important part of the beauty of the Kabuki stage. Their colors, dyeing, weaving, and embroidery are filled with the skills of many craftsmen and the ingenuity of their predecessors.<br><br>Ichikawa Danjūrō XIII, Hakuen | Shochiku Kabuki<br><br>In the fall of 2022, the KABUKI Traditional name \"Ichikawa Danjuro\", which has been in existence since the Edo period, will be revived for the first time in nine years. Ichikawa Danjuro XIII, Hakuen was born. To commemorate the succession, T-shirts were designed with the themes of \"costumes,\" \"kumadori,\" and \"nishiki-e,\" which are symbols of KABUKI. This piece of t-shirts conveys the appeal of KABUKI, a traditional Japanese culture.<br><br>©In Association with Shochiku",
+        "name": "Shochiku Kabuki Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E457960-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07629617",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A special piece of t-shirts commemorating the succession to the name of Ichikawa Danjuro, the grand feudal lord of Naritaya.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/457960_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457727/item/idgoods_00_457727.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/chip/goods_00_457727_chip.jpg",
+              "colorCode": "00"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457727/sub/idgoods_457727_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457727/sub/idgoods_457727_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/457727/sub/goods_457727_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457727/sub/idgoods_457727_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/457727/sub/idgoods_457727_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "457727",
+        "longDescription": "The front of this shirt is printed with the oshiguma of Ichikawa Danjuro XIII, Hakuen, a KABUKI actor himself.<br>Kumadori is a unique KABUKI makeup technique. It also has the role of visually conveying the character of the role to the audience through the colors and types of makeup. Kumadori is also said to represent the ridges of muscles and blood vessels. Oshiguma is a copy of the kumadori applied by the actor by pressing it against paper or cloth.<br><br>Ichikawa Danjūrō XIII, Hakuen | Shochiku Kabuki<br><br>In the fall of 2022, the KABUKI Traditional name \"Ichikawa Danjuro\", which has been in existence since the Edo period, will be revived for the first time in nine years. Ichikawa Danjuro XIII, Hakuen was born. To commemorate the succession, T-shirts were designed with the themes of \"costumes,\" \"kumadori,\" and \"nishiki-e,\" which are symbols of KABUKI. This piece of t-shirts conveys the appeal of KABUKI, a traditional Japanese culture.<br><br>©In Association with Shochiku",
+        "name": "Shochiku Kabuki Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E457727-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07629608",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "A special piece of t-shirts commemorating the succession to the name of Ichikawa Danjuro, the grand feudal lord of Naritaya.",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/457727_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL65",
+            "displayCode": "65",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/item/idgoods_65_462033.jpg",
+              "colorCode": "65"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/chip/goods_65_462033_chip.jpg",
+              "colorCode": "65"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/sub/idgoods_462033_sub1.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/sub/idgoods_462033_sub2.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/sub/idgoods_462033_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462033/sub/goods_462033_sub25.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/sub/idgoods_462033_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/sub/idgoods_462033_sub27.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/462033/sub/idgoods_462033_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "462033",
+        "longDescription": "Pokémon Masters EX<br><br>“Pokémon Masters EX” is a game that takes you on an adventurous journey where you can experience the bond between Pokémon and Trainers. Trainers develop an affectionate and trusting relationship with their precious Pokémon in the journey. This collection represents that special bond between　Pokémon and Trainers featured in the Pokémon series.<br><br>©2023 Pokémon.<br>©1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.<br>©DeNA Co., Ltd.<br>TM, ® Nintendo.",
+        "name": "Pokemon Short Sleeve UT",
+        "prices": {
+          "promo": null,
+          "base": {
+            "currency": {
+              "code": "IDR",
+              "symbol": "Rp"
+            },
+            "value": "199000.0000"
+          }
+        },
+        "productId": "E462033-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": ["display", "sale"],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 3,
+          "count": 1,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 1,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL65",
+            "displayCode": "65",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07606930",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 24,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "The Pokémon UT collection is now available—celebrate the bond between Pokémon and Trainers!",
+        "sizeChartUrl": "https://www.uniqlo.com/id/en/size/462033_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
       }
     ],
     "pagination": {
       "count": 24,
-      "total": 149,
+      "total": 82,
       "offset": 24
     }
   }

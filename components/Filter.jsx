@@ -39,16 +39,16 @@ const Filter = ({ aggregation, setUrl }) => {
                           <Accordion.Content>
                             {text.children[0].children.map((submenu, i) => {
                               return (
-                                <ul key={i}>
+                                <div key={i}>
                                   {" "}
                                   <button
                                     onClick={() => setUrl(submenu.url)}
                                     href=""
-                                    className="p-4 block hover:bg-slate-200 duration-150 ease-in-out"
+                                    className="p-4 block hover:font-bold duration-150 ease-in-out"
                                   >
                                     {submenu.label}
                                   </button>
-                                </ul>
+                                </div>
                               );
                             })}
                           </Accordion.Content>
