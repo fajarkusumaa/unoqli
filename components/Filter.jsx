@@ -5,7 +5,6 @@ import { FormatterPrice } from "./utils/FormatterPrice";
 import { allMenu } from "./utils/api/allMenu";
 import { useState } from "react";
 import { useEffect } from "react";
-import Link from "next/link";
 
 const Filter = ({ aggregation, setUrl }) => {
   const [Menu, setMenu] = useState([]);
