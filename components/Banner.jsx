@@ -24,14 +24,13 @@ const Banner = ({ list, aggregation }) => {
       <div className="container h-[600px] my-4 flex justify-center items-center">
         <div className="h-[600px] w-screen relative overflow-hidden flex gap-4">
           <>
-            <div className="w-1/3 h-1/3 absolute bg-gradient-to-t from-gray-800 to-gray-800 z-10"></div>
+            <div className="w-1/3 h-1/3 absolute bg-gradient-to-t from-gray-800 to-gray-800"></div>
             <div className="w-1/3 absolute bg-gray-800 h-full"></div>
-            <div className="w-full right-0 overflow-hidden">
+            <div className="w-full h-full right-0">
               <Carousel
                 autoPlay
                 axis="vertical"
                 interval={4000}
-                infiniteLoop={true}
                 transitionTime={800}
                 showThumbs={false}
                 showIndicators={false}
@@ -55,13 +54,13 @@ const Banner = ({ list, aggregation }) => {
                           </button>
                         </div>
                       </div>
-                      <div className="w-2/3 flex-1" key={i}>
+                      <div className="w-2/3 aspect-square overflow-hidden">
                         <Image
                           src={item.images.main[0].url}
                           alt=""
-                          width={1000}
-                          height={1000}
-                          style={{ backgroundSize: "cover" }}
+                          height={500}
+                          width={500}
+                          // style={{ backgroundSize: "cover" }}
                           quality={100}
                         />
                       </div>

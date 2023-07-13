@@ -27,8 +27,17 @@ const Navbar = () => {
           <Link href="/" className="hover:text-rose-700">
             Home
           </Link>
+          <Link href="/men" className="hover:text-rose-700">
+            Men
+          </Link>
+          <Link href="/women" className="hover:text-rose-700">
+            Women
+          </Link>
+          <Link href="/" className="hover:text-rose-700">
+            Kiddo
+          </Link>
 
-          <Dropdown inline label="Men">
+          {/* <Dropdown inline label="Men">
             <Dropdown.Item>
               <Link href="/men/tops">Tops</Link>
             </Dropdown.Item>
@@ -59,7 +68,7 @@ const Navbar = () => {
                 UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
               </Link>
             </Dropdown.Item>
-          </Dropdown>
+          </Dropdown> */}
         </div>
         {/* Right */}
         <div className="w-1/3 text-right flex justify-end gap-6">
