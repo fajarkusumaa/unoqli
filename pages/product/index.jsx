@@ -69,7 +69,11 @@ const product = () => {
       <>
         <Head>{/* <title>{aggregation.tree.categories.name}</title> */}</Head>
         <div className="flex justify-center h-screen w-screen items-center">
-          <h1>No Pokemon</h1>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
+            alt=""
+            style={{ width: 120, height: 100 }}
+          />
         </div>
       </>
     );
