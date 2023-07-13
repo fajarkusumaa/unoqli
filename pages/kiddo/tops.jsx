@@ -104,90 +104,11 @@ const product = () => {
 
       <Layout>
         <div className="w-screen flex flex-col items-center justify-center relative">
-          <div className="container">
-            {" "}
-            <h1 className="items-start text-4xl my-5">All Tops</h1>
-          </div>
           {/* Banner */}
-          <Banner list={list} />
+          <Banner list={list} aggregation={aggregation} />
           {/* ! Banner */}
           <div className="container flex py-4 my-6 gap-4">
             <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
-              {/* <>
-                <Accordion collapseAll flush className="border-transparent">
-                  <Accordion.Panel>
-                    <Accordion.Title>Categories</Accordion.Title>
-                    <Accordion.Content>
-                      <ul>
-                        {aggregation.tree.subcategories.map((subs, i) => (
-                          <li key={i} className="p-4 hover:bg-slate-50">
-                            <a href="">{subs.name}</a>
-                          </li>
-                        ))}
-                      </ul>{" "}
-                    </Accordion.Content>
-                  </Accordion.Panel>
-                  <Accordion.Panel>
-                    <Accordion.Title className="border-0">Size</Accordion.Title>
-                    <Accordion.Content>
-                      <div className="flex flex-wrap gap-4">
-                        {aggregation.sizes.map((size, i) => (
-                          <div key={i} className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              id="react-option"
-                              value=""
-                              class="peer"
-                              required=""
-                            />
-                            <Label
-                              className="flex p-4 cursor-pointer peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
-                              for="react-option"
-                            >
-                              <p>{size.name}</p>
-                            </Label>
-                          </div>
-                        ))}
-                      </div>
-                    </Accordion.Content>
-                  </Accordion.Panel>
-                  <Accordion.Panel>
-                    <Accordion.Title className="border-0">
-                      Price
-                    </Accordion.Title>
-                    <Accordion.Content>
-                      <div className="flex flex-wrap gap-4">
-                        {aggregation.prices.map((price, i) => (
-                          <div key={i} className="flex items-center gap-2">
-                            <Checkbox id="remember" />
-                            <Label htmlFor="remember">
-                              {FormatterPrice(price.from)}{" "}
-                              {FormatterPrice(price.to) === 0 ? null : (
-                                <>- {FormatterPrice(price.to)}</>
-                              )}
-                            </Label>
-                          </div>
-                        ))}
-                      </div>
-                    </Accordion.Content>
-                  </Accordion.Panel>
-                  <Accordion.Panel>
-                    <Accordion.Title className="border-0">
-                      Rating
-                    </Accordion.Title>
-                    <Accordion.Content>
-                      <div className="flex flex-wrap gap-4">
-                        <Button
-                          flush
-                          className="border-2 border-slate-50 bg-transparent text-slate-700 hover:text-white hover:bg-slate-700 flex-1 w"
-                        >
-                          wkw
-                        </Button>
-                      </div>
-                    </Accordion.Content>
-                  </Accordion.Panel>
-                </Accordion>
-              </> */}
               <Filter aggregation={aggregation} />
             </div>
 

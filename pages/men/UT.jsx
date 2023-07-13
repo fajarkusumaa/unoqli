@@ -80,12 +80,8 @@ const ProductUT = () => {
 
       <Layout>
         <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
-          <div className="container">
-            {" "}
-            <h1 className="items-start text-4xl my-5">UT Collection</h1>
-          </div>
           {/* Banner */}
-          <Banner list={list} />
+          <Banner list={list} aggregation={aggregation} />
           {/* ! Banner */}
 
           {/* Main */}

@@ -2,22 +2,62 @@ import { Accordion, Label, Button, Checkbox } from "flowbite-react";
 import React from "react";
 import { FormatterPrice } from "./utils/FormatterPrice";
 
-const Filter = ({ aggregation, tree }) => {
+import { allMenu } from "./utils/api/allMenu";
+import { useState } from "react";
+import { useEffect } from "react";
+import Link from "next/link";
+
+const Filter = ({ aggregation }) => {
+  const [Menu, setMenu] = useState([]);
+
+  const getMenu = allMenu.result.menu[0].children[0].items;
+  const menuLabel = getMenu.map((menu) => menu.label.toUpperCase());
+  const menuContent = getMenu.map((menu) => menu.content[0]);
+  console.log(menuContent);
+
+  useEffect(() => {
+    setMenu(getMenu);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Menu.children[0].items.map(res);
+
   return (
     <>
       <Accordion collapseAll flush className="border-transparent">
         <Accordion.Panel>
           <Accordion.Title>Categories</Accordion.Title>
           <Accordion.Content>
-            <ul>
-              {aggregation.tree.subcategories.map((subs, i) => (
-                <li key={i} className="p-4 hover:bg-slate-50 capitalize">
-                  <a href="" className="capitalize">
-                    {subs.name}
-                  </a>
-                </li>
-              ))}
-            </ul>{" "}
+            {menuLabel.map((menu, i) => {
+              return menu === aggregation.tree.genders[0].name ? (
+                <>
+                  {menuContent[i].children.map((text, i) => {
+                    return (
+                      <Accordion collapseAll flush key={i}>
+                        <Accordion.Panel>
+                          <Accordion.Title>{text.headingText}</Accordion.Title>
+                          <Accordion.Content>
+                            {text.children[0].children.map((submenu, i) => {
+                              return (
+                                <ul key={i}>
+                                  {" "}
+                                  <Link
+                                    href=""
+                                    className="p-4 block hover:bg-slate-200 duration-150 ease-in-out"
+                                  >
+                                    {submenu.label}
+                                  </Link>
+                                </ul>
+                              );
+                            })}
+                          </Accordion.Content>
+                        </Accordion.Panel>
+                      </Accordion>
+                    );
+                  })}
+                </>
+              ) : null;
+            })}
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>

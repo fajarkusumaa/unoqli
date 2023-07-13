@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useEffect, useState } from "react";
@@ -30,6 +29,7 @@ const product = () => {
   const [list, setList] = useState();
 
   const [aggregation, setAggregation] = useState();
+  console.log(aggregation);
 
   // Displayed Items
   const [displayedItems, setDisplayedItems] = useState(8);
@@ -64,9 +64,7 @@ const product = () => {
   if (!list) {
     return (
       <>
-        <Head>
-          <title>Product | Men</title>
-        </Head>
+        <Head>{/* <title>{aggregation.tree.categories.name}</title> */}</Head>
         <div className="flex justify-center h-screen w-screen items-center">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
@@ -86,12 +84,8 @@ const product = () => {
 
       <Layout>
         <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
-          <div className="container">
-            {" "}
-            <h1 className="items-start text-4xl my-5">All Tops</h1>
-          </div>
           {/* Banner */}
-          <Banner list={list} />
+          <Banner list={list} aggregation={aggregation} />
           {/* ! Banner */}
           {/* Main */}
           <div className="container flex py-4 my-6 gap-4">
