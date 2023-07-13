@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/rules-of-hooks */
@@ -31,7 +32,7 @@ const product = () => {
   const [displayedItems, setDisplayedItems] = useState(8);
   const itemsPerPage = 4;
 
-  const [apiUrl, setApiUrl] = useState("product");
+  const [apiUrl, setApiUrl] = useState("/men/tops/tops-collections");
   console.log(apiUrl);
 
   const allItems = `https://fajarkusumaa.github.io/unoqli/components/utils/api/${apiUrl}/db.json`;
@@ -60,8 +61,19 @@ const product = () => {
     }
   };
 
+  const handleLoadMore = () => {
+    setDisplayedItems(
+      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage
+    );
+  };
+
   useEffect(() => {
     fetchAllItem();
+    window.scrollTo(0, 0);
+  }, [apiUrl, displayedItems]);
+
+  useEffect(() => {
+    setDisplayedItems(8);
   }, [apiUrl]);
 
   if (!list) {
@@ -82,7 +94,11 @@ const product = () => {
   return (
     <>
       <Head>
-        <title>Pokemon</title>
+        <title>
+          {aggregation.tree.genders[0].name}
+          {" | "}
+          {aggregation.tree.categories[0].name}
+        </title>
       </Head>
 
       <Layout>

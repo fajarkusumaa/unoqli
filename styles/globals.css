@@ -3,18 +3,14 @@
 @tailwind utilities;
 
 * {
-  border-radius: 0 !important;
+  border-radius: 0;
   font-family: "Cabin", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   overflow-x: hidden;
 }
-
-/* span,
-p {
-  color: #334155;
-} */
 
 /* width */
 ::-webkit-scrollbar {
