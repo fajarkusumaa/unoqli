@@ -3,15 +3,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import React from "react";
 import Image from "next/image";
+import { ImageLoader } from "next/image";
 
 const Banner = ({ list, aggregation }) => {
-  // Randomize number of items
-  const getRandomItems = (array, limit) => {
-    const shuffled = array.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, limit);
-  };
-
-  const randomProducts = getRandomItems(list, 6);
+  const getItem = list.slice(0, 5);
 
   return (
     <>
@@ -37,7 +32,7 @@ const Banner = ({ list, aggregation }) => {
                 showArrows={false}
                 showStatus={false}
               >
-                {randomProducts.map((item, i) => (
+                {getItem.map((item, i) => (
                   <>
                     <div className="flex h-[600px] w-full gap-4">
                       <div className="w-1/3 p-16 flex items-end  text-white">
@@ -60,6 +55,7 @@ const Banner = ({ list, aggregation }) => {
                           alt=""
                           height={500}
                           width={500}
+                          loader={ImageLoader}
                           // style={{ backgroundSize: "cover" }}
                           quality={100}
                         />

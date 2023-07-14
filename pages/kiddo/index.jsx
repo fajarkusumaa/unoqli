@@ -46,6 +46,7 @@ const product = () => {
   const fetchAllItem = async () => {
     try {
       const response = await axios.get(allItems);
+
       const slicedItems = response.data.result.items.slice(0, displayedItems);
       setList(slicedItems);
       setTotal(response.data.result.items);
@@ -59,7 +60,7 @@ const product = () => {
 
   useEffect(() => {
     fetchAllItem();
-  }, [displayedItems]);
+  }, [apiUrl, displayedItems]);
 
   const handleLoadMore = () => {
     setDisplayedItems(
@@ -105,8 +106,12 @@ const product = () => {
           {/* ! Banner */}
           {/* Main */}
           <div className="container flex py-4 my-6 gap-4">
-            <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
-              <Filter aggregation={aggregation} setUrl={setApiUrl} />
+            <div className="w-1/4 sticky h-full top-[15%] ">
+              <Filter
+                aggregation={aggregation}
+                setUrl={setApiUrl}
+                className="border-transparent"
+              />
             </div>
 
             <div className="flex flex-col w-3/4 gap-2">

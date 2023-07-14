@@ -21,7 +21,7 @@ const Article = ({ item, handleAddToCart }) => {
         </div>
         {/* Shop Button */}
         <button
-          className="p-2 bg-gray-800 text-white hover:bg-gray-950 rounded-xl top-0 right-0 absolute"
+          className="p-2 text-gray-500 hover:text-gray-950 rounded-xl top-0 right-0 absolute"
           onClick={() => handleAddToCart(item)}
         >
           <ShoppingCart />
