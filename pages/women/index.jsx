@@ -106,7 +106,7 @@ const product = () => {
           {/* ! Banner */}
           {/* Main */}
           <div className="container flex py-4 my-6 gap-4">
-            <div className="w-1/4 sticky h-full top-[15%] border-2 border-slate-100 p-3">
+            <div className="w-1/4 sticky h-full top-[15%]">
               <Filter aggregation={aggregation} setUrl={setApiUrl} />
             </div>
 

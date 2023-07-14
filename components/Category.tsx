@@ -8,8 +8,8 @@ import "./Category";
 const Category = () => {
   return (
     <>
-      <section className="h-full w-full bg-slate-50">
-        <div className="flex flex-col p-36 w-full h-full">
+      <section className="h-full w-full bg-slate-50 py-36 flex justify-center items-center">
+        <div className="flex flex-col container h-full">
           <h1 className="font-bold leading-snug text-4xl mb-16 text-slate-700 ">
             Our Category
           </h1>{" "}

@@ -34,41 +34,8 @@ const Navbar = () => {
             Women
           </Link>
           <Link href="/kids" className="hover:text-rose-700">
-            Kiddo
+            Kids
           </Link>
-
-          {/* <Dropdown inline label="Men">
-            <Dropdown.Item>
-              <Link href="/men/tops">Tops</Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/men/UT">
-                UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
-              </Link>
-            </Dropdown.Item>
-          </Dropdown>
-
-          <Dropdown inline label="Women">
-            <Dropdown.Item>
-              <Link href="/women/tops">Tops</Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/women/UT">
-                UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
-              </Link>
-            </Dropdown.Item>
-          </Dropdown>
-
-          <Dropdown inline label="Kiddo">
-            <Dropdown.Item>
-              <Link href="/kiddo/tops">Tops</Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/kiddo/UT">
-                UT Collection <span className="text-rose-500 ps-2">New!</span>{" "}
-              </Link>
-            </Dropdown.Item>
-          </Dropdown> */}
         </div>
         {/* Right */}
         <div className="w-1/3 text-right flex justify-end gap-6">

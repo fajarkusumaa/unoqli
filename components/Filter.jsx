@@ -23,9 +23,9 @@ const Filter = ({ aggregation, setUrl }) => {
 
   return (
     <>
-      <Accordion collapseAll flush className="border-transparent ">
+      <Accordion collapseAll flush className="border-transparent text-sm">
         <Accordion.Panel>
-          <Accordion.Title>Categories</Accordion.Title>
+          <Accordion.Title className="py-4">Categories</Accordion.Title>
           <Accordion.Content>
             {menuLabel.map((menu, i) => {
               return menu === aggregation.tree.genders[0].name ? (
@@ -34,7 +34,9 @@ const Filter = ({ aggregation, setUrl }) => {
                     return (
                       <Accordion collapseAll flush key={i}>
                         <Accordion.Panel>
-                          <Accordion.Title>{text.headingText}</Accordion.Title>
+                          <Accordion.Title className="py-4">
+                            {text.headingText}
+                          </Accordion.Title>
                           <Accordion.Content>
                             {text.children[0].children.map((submenu, i) => {
                               return (
@@ -61,22 +63,19 @@ const Filter = ({ aggregation, setUrl }) => {
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>
-          <Accordion.Title className="border-0">Size</Accordion.Title>
+          <Accordion.Title className="py-4">Size</Accordion.Title>
           <Accordion.Content>
             <div className="flex flex-wrap gap-4">
               {aggregation.sizes.map((size, i) => (
-                <div key={i} className="flex items-center gap-2">
+                <div key={i} className="flex items-center ">
                   <input
                     type="checkbox"
-                    id="react-option"
+                    id={i}
                     value=""
-                    class="peer"
+                    className="peer focus:ring-rose-200 text-rose-600"
                     required=""
                   />
-                  <Label
-                    className="flex p-4 cursor-pointer peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
-                    for="react-option"
-                  >
+                  <Label className="flex p-4" for={i}>
                     <p>{size.name}</p>
                   </Label>
                 </div>
@@ -85,13 +84,16 @@ const Filter = ({ aggregation, setUrl }) => {
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>
-          <Accordion.Title className="border-0">Price</Accordion.Title>
+          <Accordion.Title className="py-4">Price</Accordion.Title>
           <Accordion.Content>
             <div className="flex flex-wrap gap-4">
               {aggregation.prices.map((price, i) => (
                 <div key={i} className="flex w-full items-center gap-2">
-                  <Checkbox id="remember" />
-                  <Label htmlFor="remember" className="text-sm text-gray-500">
+                  <Checkbox
+                    id={i}
+                    className="peer focus:ring-rose-200 text-rose-600"
+                  />
+                  <Label flush htmlFor={i} className="text-sm text-gray-500">
                     {FormatterPrice(price.from)}{" "}
                     {price.to === 0 ? null : <>- {FormatterPrice(price.to)}</>}
                   </Label>
@@ -101,21 +103,22 @@ const Filter = ({ aggregation, setUrl }) => {
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>
-          <Accordion.Title className="border-0">Criteria</Accordion.Title>
+          <Accordion.Title className="py-4">Criteria</Accordion.Title>
           <Accordion.Content>
-            <div className="flex flex-wrap-reverse gap-3">
+            <div className="flex flex-wrap-reverse gap-3 ">
               {aggregation.flags.map((item, i) => (
-                <div key={i} className="flex-grow">
-                  <label className="checkbox-wrapper cursor-pointer ">
-                    <input
-                      type="checkbox"
-                      className="checkbox-input peer hidden"
-                    />
-                    <p className="checkbox-tile peer-checked:border-blue-600 border-2 border-gray-150 duration-200 ease-in-out p-2 text-sm text-gray-500 peer-checked:text-gray-700   text-center">
-                      <span className="checkbox-label">{item.name}</span>
-                    </p>
-                  </label>
-                </div>
+                <label
+                  key={i}
+                  className="checkbox-wrapper cursor-pointer flex-grow"
+                >
+                  <input
+                    type="checkbox"
+                    className="checkbox-input peer hidden"
+                  />
+                  <p className="checkbox-tile peer-checked:border-rose-600 border-2 border-gray-150 duration-200 ease-in-out p-2 text-sm text-gray-500 peer-checked:text-gray-700   text-center">
+                    <span className="checkbox-label">{item.name}</span>
+                  </p>
+                </label>
               ))}
             </div>
           </Accordion.Content>

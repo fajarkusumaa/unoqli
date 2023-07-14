@@ -3,14 +3,10 @@
 @tailwind utilities;
 
 * {
-  /* border-radius: 8px !important; */
+  border-radius: 0 !important;
   font-family: "Cabin", sans-serif;
   scroll-behavior: smooth;
   @apply duration-75 ease-in;
-}
-
-label {
-  @apply border-2;
 }
 
 body {
