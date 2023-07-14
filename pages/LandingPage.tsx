@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <>
       <div className="h-screen">
-        <div className="fixed w-full top-0 z-10">
+        <div className="fixed w-full top-0 z-20">
           {" "}
           <Navbar />
         </div>

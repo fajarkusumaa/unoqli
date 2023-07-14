@@ -19,7 +19,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 4px;
 }
 
 /* Track */
@@ -29,7 +29,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  @apply bg-slate-400;
 }
 
 /* Handle on hover */

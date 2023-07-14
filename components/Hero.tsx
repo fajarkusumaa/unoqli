@@ -31,7 +31,7 @@ const Hero = () => {
             <span className="text-[#FD3C3C]">Now available</span>
           </h1>
           <Link
-            href="/ProductUT"
+            href="/men"
             color="light"
             className="mt-4 w-fit p-4 border-2 bg-slate-800 text-white"
           >

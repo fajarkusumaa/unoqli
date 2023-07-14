@@ -47,6 +47,8 @@ const product = () => {
     try {
       const response = await axios.get(allItems);
       const slicedItems = response.data.result.items.slice(0, displayedItems);
+      setList();
+
       setList(slicedItems);
       setTotal(response.data.result.items);
       setAggregation(response.data.result.aggregations);
@@ -70,7 +72,6 @@ const product = () => {
   useEffect(() => {
     setDisplayedItems(8);
     fetchAllItem();
-    window.scrollTo(0, 0);
   }, [apiUrl]);
 
   if (!list) {

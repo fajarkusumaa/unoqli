@@ -56,7 +56,7 @@ const Drawer = ({ close }) => {
             {/* Clear Button */}
             {cart.length >= 2 ? (
               <button onClick={() => clearCart()}>
-                <span className="text-rose-600">Clear</span>
+                <span className="text-rose-600">Clear all</span>
               </button>
             ) : (
               ""
@@ -69,7 +69,7 @@ const Drawer = ({ close }) => {
         </div>
 
         {/* Main Cart */}
-        <div className="flex flex-col shop-list gap-8 overflow-y-auto">
+        <div className="flex flex-col shop-list gap-8 overflow-y-auto pe-2">
           {cart.length === 0 ? (
             <div className="flex flex-1 flex-col h-full justify-start items-center mt-24">
               <img
@@ -116,7 +116,7 @@ const Drawer = ({ close }) => {
                   <div className="flex flex-1 flex-col">
                     <span className="text-lg font-semibold">{item.name} </span>
                     <p className="text-base opacity-50">
-                      Size: {item.sizes[1].name}
+                      Size: {item.sizes[0].name}
                     </p>
                     <p className="text-base opacity-50">Qty: {quantity}</p>
                     <p className="mt-auto font-semibold">
