@@ -32,7 +32,7 @@ const product = () => {
   const [displayedItems, setDisplayedItems] = useState(8);
   const itemsPerPage = 4;
 
-  const [apiUrl, setApiUrl] = useState("/kiddo/tops/tops-collections");
+  const [apiUrl, setApiUrl] = useState("/kids/tops/tops-collections");
   console.log(apiUrl);
 
   const allItems = `https://fajarkusumaa.github.io/unoqli/components/utils/api/${apiUrl}/db.json`;
