@@ -45,9 +45,9 @@ const product = () => {
 
   const fetchAllItem = async () => {
     try {
+      setList();
       const response = await axios.get(allItems);
       const slicedItems = response.data.result.items.slice(0, displayedItems);
-      setList();
 
       setList(slicedItems);
       setTotal(response.data.result.items);
