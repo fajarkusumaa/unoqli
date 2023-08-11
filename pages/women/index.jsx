@@ -7,7 +7,6 @@ import React, { useEffect, useState } from "react";
 import { useCartStore } from "@/components/utils/cartStore";
 
 import Layout from "../../components/Layout";
-
 import Head from "next/head";
 
 import Article from "../../components/Article";
@@ -23,6 +22,10 @@ const product = () => {
   const addToCart = useCartStore((state) => state.addToCart);
   const handleAddToCart = (item) => {
     addToCart(item);
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 2000);
   };
 
   const [aggregation, setAggregation] = useState();
@@ -63,9 +66,9 @@ const product = () => {
     fetchAllItem();
   }, [displayedItems]);
 
-  const handleLoadMore = () => {
+  const handleLoadMore = async () => {
     setDisplayedItems(
-      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage
+      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage,
     );
   };
 
@@ -73,6 +76,9 @@ const product = () => {
     setDisplayedItems(8);
     fetchAllItem();
   }, [apiUrl]);
+
+  // Trigger success message
+  const [showMessage, setShowMessage] = useState(false);
 
   if (!list) {
     return (

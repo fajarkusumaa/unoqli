@@ -23,8 +23,11 @@ const product = () => {
   const addToCart = useCartStore((state) => state.addToCart);
   const handleAddToCart = (item) => {
     addToCart(item);
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 2000);
   };
-
   const [aggregation, setAggregation] = useState();
   console.log(aggregation);
 
@@ -65,7 +68,7 @@ const product = () => {
 
   const handleLoadMore = () => {
     setDisplayedItems(
-      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage
+      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage,
     );
   };
 

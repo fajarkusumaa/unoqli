@@ -14,7 +14,6 @@ import Article from "../../components/Article";
 import Banner from "../../components/Banner";
 import Filter from "../../components/Filter";
 
-// import { productAll } from "../../components/utils/api/product/product";
 import axios from "axios";
 
 const product = () => {
@@ -23,6 +22,10 @@ const product = () => {
   const addToCart = useCartStore((state) => state.addToCart);
   const handleAddToCart = (item) => {
     addToCart(item);
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 2000);
   };
 
   const [aggregation, setAggregation] = useState();
@@ -39,9 +42,6 @@ const product = () => {
 
   const [total, setTotal] = useState();
   const [list, setList] = useState();
-
-  console.log(total);
-  console.log(list);
 
   const fetchAllItem = async () => {
     try {
@@ -65,7 +65,7 @@ const product = () => {
 
   const handleLoadMore = () => {
     setDisplayedItems(
-      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage
+      (prevDisplayedItems) => prevDisplayedItems + itemsPerPage,
     );
   };
 
@@ -74,10 +74,12 @@ const product = () => {
     setDisplayedItems(8);
   }, [apiUrl]);
 
+  // Trigger success message
+  const [showMessage, setShowMessage] = useState(false);
+
   if (!list) {
     return (
       <>
-        <Head>{/* <title>{aggregation.tree.categories.name}</title> */}</Head>
         <div className="flex justify-center h-screen w-screen items-center">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
@@ -99,7 +101,7 @@ const product = () => {
         </title>
       </Head>
 
-      <Layout>
+      <Layout showMessage={showMessage}>
         <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
           {/* Banner */}
           <Banner list={list} aggregation={aggregation} />
@@ -120,14 +122,6 @@ const product = () => {
                 </span>{" "}
                 result from {total.length}
               </p>
-
-              {/* <div className="flex">
-              {" "}
-              <p className="">Sort by : </p>
-              <select name="" id="">
-                <p>11</p>
-              </select>
-            </div> */}
 
               <div className=" grid grid-cols-4 gap-4 h-fit">
                 {list.map((item, i) => (
