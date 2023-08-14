@@ -15,6 +15,7 @@ import Banner from "../../components/Banner";
 import Filter from "../../components/Filter";
 
 import axios from "axios";
+import { useRouter } from "next/router";
 
 const product = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -45,7 +46,6 @@ const product = () => {
 
   const fetchAllItem = async () => {
     try {
-      setList();
       const response = await axios.get(allItems);
       const slicedItems = response.data.result.items.slice(0, displayedItems);
 
@@ -56,6 +56,11 @@ const product = () => {
       //
     } catch (error) {
       console.error("error fetching data", error);
+      setShowErrorMessage(true);
+
+      setTimeout(() => {
+        router.reload();
+      }, 1500);
     }
   };
 
@@ -70,6 +75,7 @@ const product = () => {
   };
 
   useEffect(() => {
+    setList();
     fetchAllItem();
     setDisplayedItems(8);
   }, [apiUrl]);
@@ -77,16 +83,31 @@ const product = () => {
   // Trigger success message
   const [showMessage, setShowMessage] = useState(false);
 
+  // No Item Message
+  const [showErrorMessage, setShowErrorMessage] = useState(false);
+
+  // Redirect back to home
+  const router = useRouter();
+
+  // Check if the list is empty
   if (!list) {
+    // Show loading indicator
     return (
       <>
-        <div className="flex justify-center h-screen w-screen items-center">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
-            alt=""
-            style={{ width: 120, height: 100 }}
-          />
-        </div>
+        {/* Check if there's an error fetching data */}
+        {showErrorMessage === true ? (
+          <div className="text-red-500 w-screen h-screen flex items-center justify-center">
+            Item not found. Redirecting to the home page...
+          </div>
+        ) : (
+          <div className="flex justify-center h-screen w-screen items-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
+              alt=""
+              style={{ width: 120, height: 100 }}
+            />
+          </div>
+        )}
       </>
     );
   }

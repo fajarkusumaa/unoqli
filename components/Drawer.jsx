@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { X, Trash2 } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -85,7 +86,7 @@ const Drawer = ({ close }) => {
                 Looks like you have not added anything to your cart. Go ahead &
                 explore our store.
               </p>
-              <Link href="./Product">
+              <Link href="./men">
                 <button className="p-4 bg-rose-700 text-white mt-5 px-10">
                   Explore
                 </button>
@@ -94,14 +95,14 @@ const Drawer = ({ close }) => {
           ) : (
             cart.map((item, index) => {
               const sameProductItems = cart.filter(
-                (cartItem) => cartItem.productId === item.productId
+                (cartItem) => cartItem.productId === item.productId,
               );
 
               const quantity = sameProductItems.length;
 
               const isDuplicate = cart.some(
                 (cartItem, cartIndex) =>
-                  cartItem.productId === item.productId && cartIndex < index
+                  cartItem.productId === item.productId && cartIndex < index,
               );
 
               if (isDuplicate) {

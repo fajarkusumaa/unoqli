@@ -46,13 +46,6 @@ const Navbar = () => {
             />
           </button>
           <button className="relative" onClick={() => setShow(true)}>
-            {/* <MoveDown
-              className={`${
-                cartAnimate
-                  ? "animate-bounce absolute top-[-16px]"
-                  : "invisible absolute"
-              }`}
-            /> */}
             <ShoppingBag
               size={24}
               className="text-slate-700 hover:fill-emerald-200"

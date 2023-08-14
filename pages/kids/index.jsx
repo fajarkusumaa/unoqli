@@ -16,6 +16,7 @@ import Filter from "../../components/Filter";
 
 // import { productAll } from "../../components/utils/api/product/product";
 import axios from "axios";
+import { useRouter } from "next/router";
 
 const product = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -28,6 +29,7 @@ const product = () => {
       setShowMessage(false);
     }, 2000);
   };
+
   const [aggregation, setAggregation] = useState();
   console.log(aggregation);
 
@@ -48,7 +50,6 @@ const product = () => {
 
   const fetchAllItem = async () => {
     try {
-      setList();
       const response = await axios.get(allItems);
       const slicedItems = response.data.result.items.slice(0, displayedItems);
 
@@ -59,6 +60,11 @@ const product = () => {
       //
     } catch (error) {
       console.error("error fetching data", error);
+      setShowErrorMessage(true);
+
+      setTimeout(() => {
+        router.reload();
+      }, 1500);
     }
   };
 
@@ -73,22 +79,40 @@ const product = () => {
   };
 
   useEffect(() => {
+    setList();
     setDisplayedItems(8);
     fetchAllItem();
     // window.scrollTo(0, 0);
   }, [apiUrl]);
 
+  // Trigger success message
+  const [showMessage, setShowMessage] = useState(false);
+
+  // No Item Message
+  const [showErrorMessage, setShowErrorMessage] = useState(false);
+
+  // Redirect back to home
+  const router = useRouter();
+
+  // Check if the list is empty
   if (!list) {
+    // Show loading indicator
     return (
       <>
-        <Head>{/* <title>{aggregation.tree.categories.name}</title> */}</Head>
-        <div className="flex justify-center h-screen w-screen items-center">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
-            alt=""
-            style={{ width: 120, height: 100 }}
-          />
-        </div>
+        {/* Check if there's an error fetching data */}
+        {showErrorMessage === true ? (
+          <div className="text-red-500 w-screen h-screen flex items-center justify-center">
+            Item not found. Redirecting to the home page...
+          </div>
+        ) : (
+          <div className="flex justify-center h-screen w-screen items-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"
+              alt=""
+              style={{ width: 120, height: 100 }}
+            />
+          </div>
+        )}
       </>
     );
   }
@@ -103,7 +127,7 @@ const product = () => {
         </title>
       </Head>
 
-      <Layout>
+      <Layout showMessage={showMessage}>
         <div className="w-screen flex flex-col items-center justify-center mt-5 relative top-1/3">
           {/* Banner */}
           <Banner list={list} aggregation={aggregation} />
