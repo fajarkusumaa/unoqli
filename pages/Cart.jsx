@@ -249,7 +249,7 @@ const Cart = () => {
                   setShowModal(false);
                   router.push("/");
                   clearCart();
-                }, 2000);
+                }, 3000);
               }}
             >
               Checkout
